@@ -1,0 +1,57 @@
+{
+    "first_name": "Elias",
+    "last_name": "Montgomery",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "elias.montgomery@example.com",
+    "phone": "+15551234567",
+    "address": "42 Maple Leaf Dr, Toronto, Canada",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "Kafka",
+        "AWS",
+        "Data Warehousing",
+        "ETL",
+        "Data Modeling"
+    ],
+    "experiences": [
+        {
+            "company": "Quantum Leap Technologies",
+            "role": "Data Engineer",
+            "start_date": "2016-06-01",
+            "end_date": "2019-08-30",
+            "description": "Designed and implemented ETL pipelines for processing large datasets from various sources. Developed and maintained data warehousing solutions using AWS Redshift. Improved data quality and reliability by implementing data validation and monitoring processes. Worked with stakeholders to understand data requirements and provide data-driven insights."
+        },
+        {
+            "company": "Starlight Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-09-01",
+            "end_date": "2022-12-31",
+            "description": "Led a team of data engineers in building and maintaining a data lake using Hadoop and Spark. Developed and implemented data governance policies and procedures. Optimized data processing pipelines for performance and scalability. Mentored junior data engineers and provided technical guidance."
+        },
+        {
+            "company": "Zenith Data Solutions",
+            "role": "Lead Data Engineer",
+            "start_date": "2023-01-01",
+            "end_date": null,
+            "description": "Currently leading the data engineering efforts at Zenith Data Solutions. Responsible for designing and implementing a new data warehousing solution using cloud-based technologies. Working closely with stakeholders to define data strategy and roadmap. Implementing best practices for data security and compliance. Managing a team of data engineers and data scientists."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Waterloo",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2010,
+            "description": "Focused on software engineering and data structures. Completed a capstone project on distributed systems."
+        },
+        {
+            "institution": "University of British Columbia",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2015,
+            "description": "Specialized in machine learning and data mining. Conducted research on anomaly detection in large datasets. Published research papers in peer-reviewed conferences."
+        }
+    ]
+}

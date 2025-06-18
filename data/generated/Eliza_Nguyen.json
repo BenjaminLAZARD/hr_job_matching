@@ -1,0 +1,58 @@
+{
+    "first_name": "Eliza",
+    "last_name": "Nguyen",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "eliza.nguyen@datamail.com",
+    "phone": "+15551234567",
+    "address": "456 Oak Avenue, Silicon Valley, CA, USA",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Modeling",
+        "ETL",
+        "Data Warehousing",
+        "Airflow",
+        "Data Visualization"
+    ],
+    "experiences": [
+        {
+            "company": "DataSolutions Inc.",
+            "role": "Data Engineer",
+            "start_date": "2018-07-01",
+            "end_date": "2021-06-30",
+            "description": "Developed and maintained ETL pipelines using Python, Spark, and SQL to ingest data from various sources into a data warehouse. Implemented data quality checks and monitoring systems to ensure data accuracy and reliability. Contributed to the design and implementation of a new data warehousing solution on AWS using Redshift."
+        },
+        {
+            "company": "CloudAnalytics Corp.",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-07-01",
+            "end_date": "2023-12-31",
+            "description": "Led a team of data engineers in building and scaling data infrastructure to support growing data volumes and complex analytical requirements. Designed and implemented a data lake on AWS S3 using Hadoop and Spark. Developed and maintained data pipelines using Airflow. Mentored junior data engineers and provided technical guidance."
+        },
+        {
+            "company": "AI Insights Ltd.",
+            "role": "Lead Data Engineer",
+            "start_date": "2024-01-01",
+            "end_date": null,
+            "description": "Currently leading the data engineering efforts at AI Insights Ltd., focusing on building a robust and scalable data platform for AI/ML applications. Responsible for designing and implementing data pipelines, data models, and data governance policies. Working closely with data scientists and ML engineers to ensure data availability and quality for model training and deployment."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Stanford University",
+            "degree": "M.S. in Data Science",
+            "year_of_graduation": 2018,
+            "description": "Specialized in data mining, machine learning, and statistical modeling. Completed coursework in advanced algorithms, database systems, and distributed computing. Conducted research on anomaly detection in time series data."
+        },
+        {
+            "institution": "University of California, Berkeley",
+            "degree": "B.S. in Computer Science",
+            "year_of_graduation": 2016,
+            "description": "Graduated with honors in Computer Science. Completed coursework in data structures, algorithms, software engineering, and computer architecture. Participated in a research project on parallel computing."
+        }
+    ]
+}

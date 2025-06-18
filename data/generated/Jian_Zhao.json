@@ -1,0 +1,57 @@
+{
+    "first_name": "Jian",
+    "last_name": "Zhao",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "jian.zhao@email.com",
+    "phone": "+8613812345678",
+    "address": "Beijing, China",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "Data Warehousing",
+        "ETL",
+        "Data Modeling",
+        "Airflow",
+        "Kafka"
+    ],
+    "experiences": [
+        {
+            "company": "ByteDance",
+            "role": "Data Engineer",
+            "start_date": "2016-07-01",
+            "end_date": "2019-06-30",
+            "description": "Designed and implemented scalable data pipelines for processing large-scale user behavior data. Optimized existing ETL processes to improve efficiency and reduce latency. Collaborated with data scientists to develop and deploy machine learning models."
+        },
+        {
+            "company": "Quantum Leap Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-07-01",
+            "end_date": "2021-12-31",
+            "description": "Led the design and development of a new data warehouse to support business intelligence and analytics initiatives. Managed a team of data engineers and mentored junior team members. Implemented data governance policies and procedures to ensure data quality and compliance."
+        },
+        {
+            "company": "Everest Software Solutions",
+            "role": "Principal Data Engineer",
+            "start_date": "2022-01-01",
+            "end_date": "2023-10-31",
+            "description": "Architected and implemented a cloud-based data lake using AWS services such as S3, EMR, and Redshift. Developed and maintained data ingestion pipelines using Airflow and Kafka. Provided technical leadership and guidance to other data engineers."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tsinghua University, Beijing",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Graduated with honors. Focused on algorithms, data structures, and database systems. Completed a senior project on distributed data processing."
+        },
+        {
+            "institution": "University of Michigan, Ann Arbor",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Specialized in data mining and machine learning. Conducted research on scalable algorithms for big data analytics. Published a paper in a top-tier conference."
+        }
+    ]
+}

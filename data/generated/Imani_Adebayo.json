@@ -1,0 +1,56 @@
+{
+    "first_name": "Imani",
+    "last_name": "Adebayo",
+    "birthdate": "1992-05-15",
+    "age": 31,
+    "email": "imani.adebayo@email.com",
+    "phone": "+2348012345678",
+    "address": "10 Ajose Adeogun St, Lagos, Nigeria",
+    "skills": [
+        "Python",
+        "SQL",
+        "Data Warehousing",
+        "ETL",
+        "Apache Spark",
+        "AWS (S3, EC2, Lambda)",
+        "Data Modeling",
+        "Data Analysis"
+    ],
+    "experiences": [
+        {
+            "company": "TechGrow Africa",
+            "role": "Data Engineer",
+            "start_date": "2018-07-01",
+            "end_date": "2020-06-30",
+            "description": "Designed and implemented ETL pipelines using Apache Spark and Python to process large datasets from various sources. Improved data quality and reliability through data validation and monitoring. Collaborated with data scientists to build machine learning models."
+        },
+        {
+            "company": "Quantify Global Solutions",
+            "role": "Senior Data Engineer",
+            "start_date": "2020-07-01",
+            "end_date": "2022-12-31",
+            "description": "Led a team of data engineers to build a scalable data warehouse on AWS. Developed data models and implemented data governance policies. Optimized data pipelines for performance and cost-efficiency. Mentored junior data engineers."
+        },
+        {
+            "company": "DataFlow Dynamics",
+            "role": "Principal Data Engineer",
+            "start_date": "2023-01-01",
+            "end_date": null,
+            "description": "Architected and implemented a cloud-based data platform for real-time data ingestion and analysis. Developed data security and access control policies. Led the adoption of new data technologies and tools. Provided technical leadership and guidance to the data engineering team."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Obafemi Awolowo University",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2014,
+            "description": "Relevant coursework included data structures, algorithms, database management, and software engineering."
+        },
+        {
+            "institution": "African Institute of Mathematical Sciences (AIMS)",
+            "degree": "M.Sc. in Mathematical Sciences",
+            "year_of_graduation": 2016,
+            "description": "Specialized in data science and machine learning. Thesis focused on developing novel algorithms for anomaly detection in time series data."
+        }
+    ]
+}

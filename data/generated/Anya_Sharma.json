@@ -1,0 +1,56 @@
+{
+    "first_name": "Anya",
+    "last_name": "Sharma",
+    "birthdate": "1992-05-15",
+    "age": 31,
+    "email": "anya.sharma@example.com",
+    "phone": "+919876543210",
+    "address": "456 Nehru Place, New Delhi, India",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Modeling",
+        "ETL",
+        "Data Warehousing"
+    ],
+    "experiences": [
+        {
+            "company": "Infosys",
+            "role": "Data Analyst",
+            "start_date": "2014-07-01",
+            "end_date": "2016-06-30",
+            "description": "Collected, cleaned, and analyzed data to identify trends and insights. Developed reports and dashboards to communicate findings to stakeholders. Supported data-driven decision-making across the organization."
+        },
+        {
+            "company": "QuantumLeap Analytics",
+            "role": "Data Engineer",
+            "start_date": "2016-07-01",
+            "end_date": "2020-12-31",
+            "description": "Designed, built, and maintained data pipelines for efficient data ingestion and processing. Optimized data storage solutions and ensured data quality. Worked with various data sources, including relational databases, NoSQL databases, and cloud storage. Developed and implemented data governance policies."
+        },
+        {
+            "company": "Apex Data Solutions",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-01-01",
+            "end_date": "2023-10-31",
+            "description": "Led the design and implementation of a new data warehouse using AWS Redshift. Developed and maintained ETL pipelines using Spark and Hadoop. Mentored junior data engineers and provided technical guidance. Collaborated with cross-functional teams to implement new data-driven features."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Indian Institute of Technology, Delhi",
+            "degree": "B.Tech. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Graduated with honors. Focused on data structures, algorithms, and database management systems. Participated in several coding competitions and hackathons."
+        },
+        {
+            "institution": "Carnegie Mellon University",
+            "degree": "M.S. in Data Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in machine learning and data mining. Conducted research on scalable data analytics and big data technologies. Published a paper on distributed data processing in a peer-reviewed conference."
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "first_name": "Elena",
+    "last_name": "Rodriguez",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "elena.rodriguez@example.com",
+    "phone": "+34666555444",
+    "address": "Calle de la Piruleta, 10, Madrid, Spain",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Modeling",
+        "ETL Pipelines",
+        "Data Warehousing",
+        "Kafka"
+    ],
+    "experiences": [
+        {
+            "company": "Innovate Solutions S.A.",
+            "role": "Junior Data Engineer",
+            "start_date": "2015-07-01",
+            "end_date": "2017-09-01",
+            "description": "Developed and maintained ETL pipelines for ingesting data from various sources. Implemented data quality checks and monitoring systems. Assisted in the design of data warehouses and data marts. Technologies used: Python, SQL, Hadoop."
+        },
+        {
+            "company": "DataWeave Inc.",
+            "role": "Data Engineer",
+            "start_date": "2017-09-01",
+            "end_date": "2020-12-31",
+            "description": "Designed, built, and maintained scalable and reliable data pipelines using Spark, Kafka, and AWS services. Optimized data storage and retrieval processes for improved performance. Collaborated with data scientists and analysts to understand their data requirements and provide appropriate data solutions. Implemented data governance policies and procedures."
+        },
+        {
+            "company": "Quantum Leap Technologies",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-01-01",
+            "end_date": "2023-10-31",
+            "description": "Led the development of a new data platform based on cloud technologies (AWS). Mentored junior data engineers and provided technical guidance. Developed and implemented data architecture strategies to support business growth. Focused on data security and compliance. Responsible for data pipeline monitoring and incident response. Implemented Infrastructure as Code using Terraform."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Politécnica de Madrid",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Focused on data structures, algorithms, and database management systems. Completed a senior project on data mining techniques."
+        },
+        {
+            "institution": "Imperial College London",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2015,
+            "description": "Specialized in machine learning, statistical modeling, and data visualization. Conducted research on large-scale data analysis and distributed computing. Thesis: \"Scalable Data Pipelines for Real-time Analytics\"."
+        }
+    ]
+}

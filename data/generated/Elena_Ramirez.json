@@ -1,0 +1,57 @@
+{
+    "first_name": "Elena",
+    "last_name": "Ramirez",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "elena.ramirez@email.com",
+    "phone": "+15551234567",
+    "address": "456 Oak Ave, Anytown, USA",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Kafka",
+        "AWS",
+        "Data Modeling",
+        "ETL",
+        "Data Warehousing",
+        "Airflow"
+    ],
+    "experiences": [
+        {
+            "company": "NovaTech Solutions",
+            "role": "Data Engineer",
+            "start_date": "2016-07-01",
+            "end_date": "2019-06-30",
+            "description": "Developed and maintained ETL pipelines for data ingestion and transformation. Implemented data quality checks and monitoring systems. Collaborated with data scientists to provide data for machine learning models. Used Python, SQL, and Apache Spark."
+        },
+        {
+            "company": "Stellar Data Corp",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-07-01",
+            "end_date": "2022-12-31",
+            "description": "Led the design and implementation of a new data warehouse solution on AWS. Managed a team of data engineers. Optimized data pipelines for performance and scalability. Utilized AWS services such as S3, Redshift, and EMR."
+        },
+        {
+            "company": "Apex Innovations",
+            "role": "Principal Data Engineer",
+            "start_date": "2023-01-01",
+            "end_date": null,
+            "description": "Currently leading a team in building a real-time data streaming platform using Kafka and Apache Flink. Responsible for data architecture and governance. Mentoring junior data engineers. Working with stakeholders to define data requirements and ensure data accessibility."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of California, Berkeley",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "GPA: 3.8. Relevant coursework included Data Structures and Algorithms, Database Systems, and Machine Learning."
+        },
+        {
+            "institution": "Stanford University",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2014,
+            "description": "GPA: 3.9. Thesis: \"Scalable Data Pipelines for Real-Time Analytics\". Focused on big data technologies and machine learning."
+        }
+    ]
+}

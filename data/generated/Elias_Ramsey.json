@@ -1,0 +1,57 @@
+{
+    "first_name": "Elias",
+    "last_name": "Ramsey",
+    "birthdate": "1992-05-15",
+    "age": 31,
+    "email": "elias.ramsey@email.ca",
+    "phone": "+15551234567",
+    "address": "42 Maple Leaf Drive, Vancouver, BC, Canada",
+    "skills": [
+        "JavaScript",
+        "React",
+        "HTML",
+        "CSS",
+        "Redux",
+        "Webpack",
+        "Typescript",
+        "Git",
+        "UI/UX Design Principles"
+    ],
+    "experiences": [
+        {
+            "company": "QuantumLeap Digital",
+            "role": "Frontend Engineer",
+            "start_date": "2022-01-03",
+            "end_date": "Present",
+            "description": "Developing and maintaining user interfaces for various web applications. Implementing new features, optimizing performance, and ensuring cross-browser compatibility. Collaborating with designers and backend engineers to deliver high-quality user experiences. Mentoring junior developers on best practices."
+        },
+        {
+            "company": "NovaTech Industries",
+            "role": "Frontend Developer",
+            "start_date": "2019-06-01",
+            "end_date": "2021-12-31",
+            "description": "Worked on a large-scale e-commerce platform, focusing on improving the user experience and performance.  Implemented A/B testing to optimize conversion rates. Technologies used: React, Redux, JavaScript, HTML, CSS."
+        },
+        {
+            "company": "ByteSoft Solutions",
+            "role": "Junior Frontend Developer",
+            "start_date": "2017-09-01",
+            "end_date": "2019-05-31",
+            "description": "Developed and maintained frontend components for web applications.  Assisted senior developers with bug fixing and code reviews. Gained experience with various frontend frameworks and libraries."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of British Columbia",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2017,
+            "description": "Specialized in Human-Computer Interaction.  Thesis focused on the usability of mobile applications for elderly users."
+        },
+        {
+            "institution": "University of Waterloo",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2015,
+            "description": "Graduated with honors.  Participated in various extracurricular activities, including the university's coding club."
+        }
+    ]
+}

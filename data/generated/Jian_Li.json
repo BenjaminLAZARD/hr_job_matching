@@ -1,0 +1,56 @@
+{
+    "first_name": "Jian",
+    "last_name": "Li",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "jian.li@email.com",
+    "phone": "+8613812345678",
+    "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "Kafka",
+        "AWS",
+        "Data Modeling",
+        "ETL"
+    ],
+    "experiences": [
+        {
+            "company": "Quantum Leap Technologies",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-07-01",
+            "end_date": "Present",
+            "description": "Leading data engineering efforts for the development of a new AI-powered recommendation engine. Responsible for designing and implementing scalable data pipelines, ensuring data quality, and optimizing performance for large-scale data processing. Mentored junior engineers and contributed to the development of best practices for data engineering."
+        },
+        {
+            "company": "Evergreen Digital Solutions",
+            "role": "Data Engineer",
+            "start_date": "2019-01-15",
+            "end_date": "2021-06-30",
+            "description": "Developed and maintained data pipelines for various business units, including marketing, sales, and operations. Implemented data quality monitoring and alerting systems. Worked with stakeholders to understand their data needs and provide data solutions to support their analytical efforts. Improved existing ETL processes, resulting in a 30% reduction in processing time."
+        },
+        {
+            "company": "WeFuture AI (Startup)",
+            "role": "Data Engineer",
+            "start_date": "2017-06-01",
+            "end_date": "2018-12-20",
+            "description": "Joined a fast-paced startup to build the data infrastructure from scratch. Implemented a data lake using AWS S3 and Spark for processing large datasets. Developed APIs for data access and integration. Contributed to the development of machine learning models by providing clean and reliable data."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Michigan, Ann Arbor",
+            "degree": "Exchange Program - Computer Science",
+            "year_of_graduation": 2016,
+            "description": "Participated in an exchange program focusing on distributed systems and machine learning."
+        },
+        {
+            "institution": "Tsinghua University, Beijing",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2017,
+            "description": "Graduated with honors, specializing in data mining and machine learning. Thesis focused on the application of deep learning to natural language processing."
+        }
+    ]
+}

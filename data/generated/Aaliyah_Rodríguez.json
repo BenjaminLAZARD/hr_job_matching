@@ -1,0 +1,58 @@
+{
+    "first_name": "Aaliyah",
+    "last_name": "Rodríguez",
+    "birthdate": "1992-05-15",
+    "age": 31,
+    "email": "aaliyah.rodriguez@email.com",
+    "phone": "+5511987654321",
+    "address": "Rua Augusta, 1234, São Paulo, Brazil",
+    "skills": [
+        "Python",
+        "SQL",
+        "Data Warehousing",
+        "ETL",
+        "AWS",
+        "Spark",
+        "Kafka",
+        "Data Modeling",
+        "Data Governance",
+        "Terraform"
+    ],
+    "experiences": [
+        {
+            "company": "Tech Solutions Brazil",
+            "role": "Data Engineer",
+            "start_date": "2016-07-01",
+            "end_date": "2018-12-31",
+            "description": "Developed and maintained ETL pipelines for internal business intelligence. Implemented data quality checks and monitoring systems. Worked with a team of engineers to migrate data infrastructure to AWS."
+        },
+        {
+            "company": "Quantify Global",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-01-01",
+            "end_date": "2022-06-30",
+            "description": "Designed and implemented scalable data solutions for global clients. Led a team of engineers in building a data warehouse using Snowflake. Developed data models and implemented data governance policies. Mentored junior engineers."
+        },
+        {
+            "company": "Nova Dynamics",
+            "role": "Principal Data Engineer",
+            "start_date": "2022-07-01",
+            "end_date": null,
+            "description": "Lead architect for data platform modernization initiative. Responsible for designing and implementing a cloud-native data platform using AWS services. Implementing data streaming solutions using Kafka. Focus on infrastructure as code (Terraform) and automation."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidade de São Paulo (USP)",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2016,
+            "description": "Focused on algorithms, data structures, and database systems. Conducted research on distributed data processing."
+        },
+        {
+            "institution": "Harvard University (Online Program)",
+            "degree": "Professional Certificate in Data Science",
+            "year_of_graduation": 2019,
+            "description": "Completed a professional certificate program focused on statistical modeling, machine learning, and data visualization using Python."
+        }
+    ]
+}

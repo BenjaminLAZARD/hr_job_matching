@@ -1,0 +1,58 @@
+{
+    "first_name": "Kwame",
+    "last_name": "Osei",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "kwame.osei@email.com",
+    "phone": "+233555123456",
+    "address": "12 Independence Ave, Accra, Ghana",
+    "skills": [
+        "Python",
+        "SQL",
+        "Data Warehousing",
+        "ETL",
+        "Spark",
+        "Airflow",
+        "AWS",
+        "Data Modeling",
+        "Data Visualization",
+        "Linux"
+    ],
+    "experiences": [
+        {
+            "company": "Accra Tech Solutions",
+            "role": "Data Engineer",
+            "start_date": "2016-07-01",
+            "end_date": "2019-06-30",
+            "description": "Designed, developed, and maintained ETL pipelines to ingest data from various sources into our data warehouse. Optimized SQL queries and data models for improved performance. Collaborated with data analysts to provide data-driven insights for business decision-making."
+        },
+        {
+            "company": "Volta Data Group",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-07-01",
+            "end_date": "2021-12-31",
+            "description": "Led the development of a new data platform using AWS services such as S3, EC2, and Redshift. Implemented data governance policies and procedures to ensure data quality and security. Mentored junior data engineers on best practices for data engineering."
+        },
+        {
+            "company": "Synergy Analytics",
+            "role": "Lead Data Engineer",
+            "start_date": "2022-01-01",
+            "end_date": null,
+            "description": "Responsible for building and scaling data pipelines for a global analytics company. Working with a team of data engineers, data scientists, and analysts to deliver high-quality data solutions. Technologies used include: Python, Spark, Airflow, AWS, and Snowflake. Implemented Infrastructure-as-Code using Terraform for managing cloud resources."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Kwame Nkrumah University of Science and Technology (KNUST)",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2011,
+            "description": "Focused on software development, database systems, and computer networking. Graduated with honors."
+        },
+        {
+            "institution": "University of Cape Coast",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in machine learning, statistical modeling, and data mining. Thesis focused on predictive modeling using time series data."
+        }
+    ]
+}

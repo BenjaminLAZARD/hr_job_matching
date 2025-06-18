@@ -1,0 +1,57 @@
+{
+    "first_name": "Chioma",
+    "last_name": "Okeke",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "chioma.okeke@example.com",
+    "phone": "+2348012345678",
+    "address": "Plot 10, Ikoyi, Lagos, Nigeria",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Modeling",
+        "ETL",
+        "Data Warehousing",
+        "Data Visualization (Tableau, PowerBI)"
+    ],
+    "experiences": [
+        {
+            "company": "DataFlow Solutions",
+            "role": "Data Engineer",
+            "start_date": "2015-06-01",
+            "end_date": "2018-12-31",
+            "description": "Designed, developed, and maintained ETL pipelines for ingesting data from various sources into a centralized data warehouse. Implemented data quality checks and monitoring to ensure data accuracy and consistency. Collaborated with data analysts and business stakeholders to understand data requirements and deliver actionable insights. Technologies used: Python, SQL, Apache Spark, Hadoop, AWS S3, AWS Redshift."
+        },
+        {
+            "company": "Quantify Global",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-01-01",
+            "end_date": "2021-12-31",
+            "description": "Led the development and implementation of a cloud-based data warehousing solution using Google Cloud Platform (GCP). Designed and implemented data models for supporting various business analytics use cases. Managed a team of data engineers and provided technical guidance and mentorship. Automated data pipeline deployments using CI/CD pipelines. Technologies used: Python, SQL, Google Cloud Storage, BigQuery, Apache Airflow, Docker, Kubernetes."
+        },
+        {
+            "company": "Innovate Analytics Inc.",
+            "role": "Principal Data Engineer",
+            "start_date": "2022-01-01",
+            "end_date": "2023-10-31",
+            "description": "Responsible for the architecture and design of data infrastructure solutions. Evaluated and selected new data technologies to improve data processing efficiency and scalability. Worked closely with product managers and engineers to define data requirements for new products. Implemented data governance policies and procedures. Technologies used: Python, Scala, AWS Glue, AWS Lambda, Databricks, Snowflake, Kafka."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Lagos",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Completed a Bachelor of Science degree in Computer Science with a focus on algorithms, data structures, and database management. GPA: 4.5/5.0. Relevant coursework included: Data Structures and Algorithms, Database Systems, Operating Systems, Software Engineering."
+        },
+        {
+            "institution": "African Institute of Science and Technology, Abuja",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2014,
+            "description": "Obtained a Master of Science degree in Data Science with a specialization in machine learning and data mining. Thesis: \"Predictive Modeling of Customer Churn using Machine Learning Techniques\". Relevant coursework included: Machine Learning, Data Mining, Statistical Inference, Big Data Analytics."
+        }
+    ]
+}

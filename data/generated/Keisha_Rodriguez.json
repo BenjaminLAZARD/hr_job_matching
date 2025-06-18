@@ -1,0 +1,44 @@
+{
+    "first_name": "Keisha",
+    "last_name": "Rodriguez",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "keisha.rodriguez@email.com",
+    "phone": "+17875551212",
+    "address": "Calle Magnolia 14, San Juan, PR 00907",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "AWS",
+        "Data Modeling",
+        "ETL",
+        "Data Warehousing",
+        "Airflow",
+        "Kafka"
+    ],
+    "experiences": [
+        {
+            "company": "Digital Horizon Solutions",
+            "role": "Data Engineer",
+            "start_date": "2017-06-01",
+            "end_date": "2020-12-31",
+            "description": "Designed and implemented ETL pipelines to ingest data from various sources into the data warehouse. Developed data models and optimized database performance. Contributed to the development of data quality monitoring tools. Worked with a small team of engineers to build the company's initial data infrastructure."
+        },
+        {
+            "company": "OmniCorp Technologies",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-01-04",
+            "end_date": "2023-10-27",
+            "description": "Led a team of data engineers in building and maintaining large-scale data pipelines on AWS. Implemented data governance policies and ensured data security. Mentored junior engineers and provided technical guidance.  Utilized Spark and Kafka for real-time data processing.  Contributed to the development of a new data lake architecture."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Puerto Rico, Mayagüez Campus",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2017,
+            "description": "Focused on database systems, data structures, and algorithms. Completed a senior project involving the design and implementation of a distributed database system. Graduated with honors."
+        }
+    ]
+}

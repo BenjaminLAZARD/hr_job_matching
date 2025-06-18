@@ -1,0 +1,62 @@
+{
+    "first_name": "Elias",
+    "last_name": "Ramirez",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "elias.ramirez@email.com",
+    "phone": "+34666555444",
+    "address": "Calle de la Piruleta, 22, Valencia, Spain",
+    "skills": [
+        "Python",
+        "Java",
+        "Go",
+        "Docker",
+        "Kubernetes",
+        "SQL",
+        "REST APIs",
+        "gRPC",
+        "Kafka",
+        "AWS",
+        "Azure",
+        "Terraform",
+        "CI/CD",
+        "Microservices"
+    ],
+    "experiences": [
+        {
+            "company": "SolarisTech Solutions",
+            "role": "Backend Developer",
+            "start_date": "2014-07-01",
+            "end_date": "2017-06-30",
+            "description": "Developed and maintained backend services for a solar energy management platform.  Implemented REST APIs using Python and Flask.  Designed and optimized SQL databases.  Contributed to the migration of legacy systems to a microservices architecture."
+        },
+        {
+            "company": "QuantumLeap Dynamics",
+            "role": "Senior Backend Engineer",
+            "start_date": "2017-07-01",
+            "end_date": "2020-12-31",
+            "description": "Led the backend development team for a cutting-edge AI-powered logistics platform.  Designed and implemented high-performance APIs using Go and gRPC.  Managed deployment infrastructure on AWS using Terraform and Kubernetes. Mentored junior engineers and promoted best practices for code quality and scalability."
+        },
+        {
+            "company": "Apex Digital Industries",
+            "role": "Lead Backend Architect",
+            "start_date": "2021-01-01",
+            "end_date": "2023-10-31",
+            "description": "Spearheaded the architectural design and implementation of a new generation of cloud-native microservices. Focused on improving scalability, reliability, and security of critical business systems.  Evaluated and recommended new technologies and tools. Drove the adoption of DevOps principles and practices.  Managed and mentored a team of backend engineers and architects."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universitat Politècnica de València",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2010,
+            "description": "Focused on algorithms, data structures, and software engineering principles. Completed a thesis on distributed systems."
+        },
+        {
+            "institution": "Escuela Técnica Superior de Ingeniería (ICAI)",
+            "degree": "M.Sc. in Software Engineering",
+            "year_of_graduation": 2012,
+            "description": "Advanced coursework in software architecture, distributed systems, and cybersecurity.  Participated in a research project on cloud computing."
+        }
+    ]
+}

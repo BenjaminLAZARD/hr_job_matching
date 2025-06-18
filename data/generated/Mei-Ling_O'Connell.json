@@ -1,0 +1,57 @@
+{
+    "first_name": "Mei-Ling",
+    "last_name": "O'Connell",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "mei-ling.oconnell@email.com",
+    "phone": "+353871234567",
+    "address": "42 Elm Park, Dublin, Ireland",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Warehousing",
+        "ETL",
+        "Data Modeling",
+        "Data Analysis"
+    ],
+    "experiences": [
+        {
+            "company": "TaraTech Solutions",
+            "role": "Data Engineer",
+            "start_date": "2014-06-01",
+            "end_date": "2017-08-31",
+            "description": "Designed, developed, and maintained ETL pipelines to ingest and process data from various sources. Implemented data quality checks and monitoring systems to ensure data accuracy. Collaborated with stakeholders to understand data requirements and deliver effective solutions. Technologies used: Python, SQL, Hadoop, Hive."
+        },
+        {
+            "company": "Global Dynamics Corp",
+            "role": "Senior Data Engineer",
+            "start_date": "2017-09-01",
+            "end_date": "2021-12-31",
+            "description": "Led the design and implementation of a new data warehouse solution on AWS using Redshift and S3. Developed scalable and efficient data pipelines using Spark and Python. Mentored junior data engineers and provided technical guidance. Focused on improving data governance and security practices. Key achievements: Reduced ETL processing time by 40%, improved data quality by 25%."
+        },
+        {
+            "company": "Innovate Analytics",
+            "role": "Lead Data Engineer",
+            "start_date": "2022-01-01",
+            "end_date": null,
+            "description": "Currently leading a team of data engineers responsible for building and maintaining the data infrastructure that supports our analytics and machine learning initiatives. Responsible for data architecture, pipeline development, and data quality. Working with cutting edge technologies like Snowflake and Databricks. Actively involved in shaping the data strategy for the organization and driving innovation in data processing and analytics."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Trinity College Dublin",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2010,
+            "description": "Focused on software engineering and database management. Relevant coursework included: Data Structures and Algorithms, Database Systems, Software Design, and Operating Systems. Graduated with honors."
+        },
+        {
+            "institution": "University College Dublin",
+            "degree": "M.Sc. in Data Analytics",
+            "year_of_graduation": 2012,
+            "description": "Specialized in statistical modeling and machine learning. Thesis focused on developing a novel algorithm for anomaly detection in time series data. Coursework included: Statistical Inference, Machine Learning, Data Mining, and Big Data Technologies."
+        }
+    ]
+}

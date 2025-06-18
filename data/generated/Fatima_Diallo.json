@@ -1,0 +1,59 @@
+{
+    "first_name": "Fatima",
+    "last_name": "Diallo",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "fatima.diallo@example.com",
+    "phone": "+221771234567",
+    "address": "Rue 10 x 11, Medina, Dakar, Senegal",
+    "skills": [
+        "Python",
+        "SQL",
+        "Data Engineering",
+        "AWS",
+        "Spark",
+        "Kafka",
+        "Data Modeling",
+        "ETL Pipelines",
+        "Data Warehousing",
+        "Machine Learning",
+        "Airflow"
+    ],
+    "experiences": [
+        {
+            "company": "Teranga Technologies",
+            "role": "Junior Data Engineer",
+            "start_date": "2015-06-01",
+            "end_date": "2017-08-31",
+            "description": "Developed and maintained ETL pipelines for collecting data from various sources. Assisted in building data warehouses and data lakes. Contributed to data quality monitoring and improvement initiatives. Used Python, SQL, and Hadoop technologies."
+        },
+        {
+            "company": "Kër Data Solutions",
+            "role": "Data Engineer",
+            "start_date": "2017-09-01",
+            "end_date": "2020-12-31",
+            "description": "Designed and implemented scalable data infrastructure solutions. Built data pipelines using Spark and Kafka. Developed data models and optimized database performance. Worked with AWS services such as S3, Redshift, and EMR. Mentored junior data engineers."
+        },
+        {
+            "company": "Globex Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-01-01",
+            "end_date": "2023-10-31",
+            "description": "Led the design and implementation of data engineering solutions for large-scale analytics projects. Developed and maintained data pipelines using Airflow. Optimized data infrastructure for performance and scalability. Implemented data governance policies and procedures. Collaborated with data scientists and business analysts to deliver data-driven insights."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University Cheikh Anta Diop (Dakar)",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Focused on algorithm design, data structures, and database management. Completed a research project on distributed data processing."
+        },
+        {
+            "institution": "École Polytechnique (Paris)",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2015,
+            "description": "Specialized in machine learning, statistical modeling, and data mining. Completed a thesis on anomaly detection in financial data."
+        }
+    ]
+}

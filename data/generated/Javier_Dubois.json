@@ -1,0 +1,57 @@
+{
+    "first_name": "Javier",
+    "last_name": "Dubois",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "javier.dubois@email.ca",
+    "phone": "+15145551212",
+    "address": "456 Maple Ave, Montreal, QC, Canada",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Kafka",
+        "AWS",
+        "Data Modeling",
+        "ETL Pipelines",
+        "Data Warehousing",
+        "Airflow"
+    ],
+    "experiences": [
+        {
+            "company": "Stellar Analytics Group",
+            "role": "Data Engineer",
+            "start_date": "2021-07-01",
+            "end_date": null,
+            "description": "Currently building and maintaining data pipelines for real-time analytics using Kafka, Spark, and AWS services (S3, Redshift, EMR). Implementing data quality checks and monitoring systems to ensure data accuracy and reliability. Collaborating with data scientists to deploy machine learning models. Leading efforts to migrate legacy data infrastructure to the cloud."
+        },
+        {
+            "company": "Quantum Data Systems",
+            "role": "Data Engineer",
+            "start_date": "2019-01-01",
+            "end_date": "2021-06-30",
+            "description": "Designed and implemented ETL processes for ingesting data from various sources into a central data warehouse. Developed data models and schemas to support business intelligence reporting. Utilized Airflow to orchestrate data pipelines and ensure timely data delivery. Optimized SQL queries for improved performance."
+        },
+        {
+            "company": "Apex Solutions Inc.",
+            "role": "Junior Data Engineer",
+            "start_date": "2016-09-01",
+            "end_date": "2018-12-31",
+            "description": "Assisted in the development and maintenance of data pipelines using Python and SQL. Gained experience in data warehousing concepts and techniques. Contributed to the design of data models and schemas. Troubleshooted data quality issues and implemented solutions."
+        }
+    ],
+    "education": [
+        {
+            "institution": "McGill University",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in data mining and machine learning. Conducted research on anomaly detection in large datasets. Developed algorithms for data clustering and classification. GPA: 3.8/4.0"
+        },
+        {
+            "institution": "University of British Columbia",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Completed coursework in data structures, algorithms, and database management. Participated in a research project on data visualization. GPA: 3.5/4.0"
+        }
+    ]
+}

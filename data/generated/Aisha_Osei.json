@@ -1,0 +1,56 @@
+{
+    "first_name": "Aisha",
+    "last_name": "Osei",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "aisha.osei@email.com",
+    "phone": "+233555123456",
+    "address": "45 Independence Ave, Accra, Ghana",
+    "skills": [
+        "Python",
+        "SQL",
+        "Data Warehousing",
+        "ETL",
+        "Spark",
+        "AWS",
+        "Data Modeling",
+        "Airflow"
+    ],
+    "experiences": [
+        {
+            "company": "Aba Data Solutions",
+            "role": "Data Engineer",
+            "start_date": "2017-06-01",
+            "end_date": "2020-08-31",
+            "description": "Developed and maintained ETL pipelines to ingest data from various sources into a centralized data warehouse. Implemented data quality checks and monitoring systems to ensure data accuracy. Collaborated with data scientists to provide data for machine learning models. Used Python, SQL, and Apache Airflow."
+        },
+        {
+            "company": "Starlight Analytics Group",
+            "role": "Senior Data Engineer",
+            "start_date": "2020-09-01",
+            "end_date": "2023-12-31",
+            "description": "Led the design and implementation of a new data lake on AWS using services like S3, EMR, and Redshift. Optimized existing data pipelines for performance and scalability. Mentored junior data engineers. Contributed to the development of data governance policies."
+        },
+        {
+            "company": "Globex Technologies",
+            "role": "Principal Data Engineer",
+            "start_date": "2024-01-01",
+            "end_date": null,
+            "description": "Currently leading a team of data engineers in building a real-time data platform for streaming analytics. Responsible for architectural decisions, technology selection, and team management. Working with Kafka, Spark Streaming, and Kubernetes."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Kwame Nkrumah University of Science and Technology (KNUST)",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2015,
+            "description": "Focused on software development and data structures. Completed a senior project on developing a recommendation system."
+        },
+        {
+            "institution": "University of Michigan",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2017,
+            "description": "Specialized in machine learning and data mining. Conducted research on anomaly detection in large datasets."
+        }
+    ]
+}

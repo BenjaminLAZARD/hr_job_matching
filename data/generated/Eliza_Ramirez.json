@@ -1,0 +1,56 @@
+{
+    "first_name": "Eliza",
+    "last_name": "Ramirez",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "eliza.ramirez@datamail.com",
+    "phone": "+15551234567",
+    "address": "456 Oak Ave, Sometown, USA",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Warehousing",
+        "ETL",
+        "Data Modeling"
+    ],
+    "experiences": [
+        {
+            "company": "Tech Solutions Inc.",
+            "role": "Data Engineer",
+            "start_date": "2017-06-01",
+            "end_date": "2020-07-01",
+            "description": "Developed and maintained ETL pipelines using Apache Spark and Python. Designed and implemented data warehousing solutions on AWS Redshift. Monitored data quality and identified potential issues, implementing data validation processes to ensure accuracy."
+        },
+        {
+            "company": "Global Analytics Corp",
+            "role": "Senior Data Engineer",
+            "start_date": "2020-07-01",
+            "end_date": "2023-12-01",
+            "description": "Led a team of data engineers in building and scaling data infrastructure. Implemented data governance policies and ensured compliance with data privacy regulations. Migrated on-premise data warehouses to cloud-based solutions using AWS and GCP. Improved data pipeline efficiency by 30% through optimization and automation."
+        },
+        {
+            "company": "Data Insights Ltd.",
+            "role": "Principal Data Engineer",
+            "start_date": "2024-01-01",
+            "end_date": null,
+            "description": "Currently responsible for architecting and implementing cutting-edge data solutions using cloud-native technologies. Leading research and development efforts in areas such as real-time data processing and machine learning pipelines. Mentoring junior data engineers and promoting best practices in data engineering."
+        }
+    ],
+    "education": [
+        {
+            "institution": "State University",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2013,
+            "description": "Graduated with honors. Focused on database systems and data structures. Participated in research projects related to data mining and machine learning."
+        },
+        {
+            "institution": "Institute of Technology",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2017,
+            "description": "Specialized in big data analytics and cloud computing. Completed thesis on scalable data processing techniques. Relevant coursework included: Machine Learning, Data Visualization, Distributed Systems."
+        }
+    ]
+}

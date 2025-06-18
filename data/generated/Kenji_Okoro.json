@@ -1,0 +1,57 @@
+{
+    "first_name": "Kenji",
+    "last_name": "Okoro",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "kenji.okoro@email.com",
+    "phone": "+2348012345678",
+    "address": "10 Lagos Avenue, Lagos, Nigeria",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "Data Warehousing",
+        "ETL Pipelines",
+        "AWS",
+        "Data Modeling",
+        "Data Analysis"
+    ],
+    "experiences": [
+        {
+            "company": "Aso Rock Analytics",
+            "role": "Data Engineer",
+            "start_date": "2015-07-01",
+            "end_date": "2018-06-30",
+            "description": "Designed and implemented ETL pipelines for various clients, focusing on data ingestion from diverse sources into centralized data warehouses. Developed data models to support business intelligence dashboards and reporting. Improved data quality and reliability through data validation and cleansing processes. Utilized Python, SQL, and various data integration tools."
+        },
+        {
+            "company": "GlobalTech Solutions",
+            "role": "Senior Data Engineer",
+            "start_date": "2018-07-01",
+            "end_date": "2022-12-31",
+            "description": "Led a team of data engineers in building and maintaining a large-scale data warehouse on AWS. Developed and implemented data governance policies and procedures to ensure data quality and compliance. Optimized data pipelines for performance and scalability using Spark and Hadoop. Collaborated with data scientists and business analysts to provide data solutions for various business needs."
+        },
+        {
+            "company": "Savanna Logistics",
+            "role": "Principal Data Engineer",
+            "start_date": "2023-01-01",
+            "end_date": null,
+            "description": "Currently responsible for designing and implementing the next-generation data platform for a logistics company. Focus on real-time data ingestion and processing for improved operational efficiency. Evaluating and implementing new data technologies to enhance data analytics capabilities. Mentoring junior data engineers."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Lagos",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2013,
+            "description": "Focused on database systems, algorithms, and data structures."
+        },
+        {
+            "institution": "University of Cambridge",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2015,
+            "description": "Specialized in machine learning, data mining, and big data technologies. Thesis on \"Scalable Data Processing for Real-Time Analytics\"."
+        }
+    ]
+}

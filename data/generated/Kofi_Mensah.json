@@ -1,0 +1,58 @@
+{
+    "first_name": "Kofi",
+    "last_name": "Mensah",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "kofi.mensah@example.com",
+    "phone": "+233547889012",
+    "address": "P.O. Box 1234, Accra, Ghana",
+    "skills": [
+        "Python",
+        "SQL",
+        "Apache Spark",
+        "AWS",
+        "Data Modeling",
+        "ETL",
+        "Data Warehousing",
+        "Kafka",
+        "Airflow",
+        "Tableau"
+    ],
+    "experiences": [
+        {
+            "company": "Adomai Tech Solutions",
+            "role": "Data Engineer",
+            "start_date": "2015-07-01",
+            "end_date": "2018-06-30",
+            "description": "Developed and maintained ETL pipelines to ingest data from various sources into a centralized data warehouse. Implemented data quality checks and monitoring systems. Worked with stakeholders to define data requirements and design data solutions. Used Python, SQL, and Apache Airflow."
+        },
+        {
+            "company": "Globex Data Corp",
+            "role": "Senior Data Engineer",
+            "start_date": "2018-07-01",
+            "end_date": "2021-12-31",
+            "description": "Led a team of data engineers in building a scalable data platform on AWS. Implemented data warehousing solutions using Snowflake and Redshift. Optimized data pipelines for performance and cost efficiency. Mentored junior data engineers and provided technical guidance. Managed the transition from on-premise data storage to cloud based services"
+        },
+        {
+            "company": "Kairos Analytics",
+            "role": "Lead Data Engineer",
+            "start_date": "2022-01-01",
+            "end_date": "2023-10-31",
+            "description": "Designed and implemented a real-time data streaming pipeline using Kafka and Spark Streaming. Developed machine learning features for predictive analytics models. Collaborated with data scientists to deploy machine learning models into production. Managed the data lake infrastructure and ensured data security. Oversaw budgeting and resource allocation within the data engineering team."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Kwame Nkrumah University of Science and Technology",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2010,
+            "description": "Focused on computer architecture, software engineering, and data structures. Completed a capstone project on developing an embedded system for real-time data acquisition."
+        },
+        {
+            "institution": "University of Cape Coast",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2014,
+            "description": "Specialized in data mining, machine learning, and statistical modeling. Conducted research on developing novel algorithms for anomaly detection in time series data. Published research findings in a peer-reviewed journal."
+        }
+    ]
+}

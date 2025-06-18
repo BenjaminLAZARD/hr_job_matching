@@ -1,0 +1,58 @@
+{
+    "first_name": "Imani",
+    "last_name": "Osei",
+    "birthdate": "1990-05-10",
+    "age": 33,
+    "email": "imani.osei@example.com",
+    "phone": "+233555123456",
+    "address": "123 Mango Tree Avenue, Accra, Ghana",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Modeling",
+        "ETL",
+        "Data Warehousing",
+        "Airflow",
+        "Kafka"
+    ],
+    "experiences": [
+        {
+            "company": "Gold Coast Telecom",
+            "role": "Data Analyst",
+            "start_date": "2014-07-01",
+            "end_date": "2016-06-30",
+            "description": "Collected, analyzed, and interpreted data from various sources to identify trends and insights. Developed reports and dashboards to communicate findings to stakeholders. Used SQL to query databases and Python to perform statistical analysis. Contributed to improved marketing campaigns through data-driven recommendations."
+        },
+        {
+            "company": "Cloudburst Analytics",
+            "role": "Data Engineer",
+            "start_date": "2016-07-01",
+            "end_date": "2019-12-31",
+            "description": "Designed, built, and maintained data pipelines using Apache Spark and Hadoop. Implemented ETL processes to transform raw data into structured formats. Developed data models for various business units. Collaborated with data scientists to ensure data quality and accessibility. Automated data ingestion from various sources, reducing manual effort by 40%."
+        },
+        {
+            "company": "Starlight Tech Solutions",
+            "role": "Senior Data Engineer",
+            "start_date": "2020-01-01",
+            "end_date": "2023-10-31",
+            "description": "Led a team of data engineers in building and maintaining a large-scale data warehouse on AWS. Implemented data governance policies and procedures. Developed and maintained data pipelines using Airflow and Kafka. Mentored junior data engineers and provided technical guidance. Spearheaded the migration to a cloud-based data warehouse, resulting in a 30% reduction in infrastructure costs."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Kwame Nkrumah University of Science and Technology",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2013,
+            "description": "Relevant coursework included data structures, algorithms, database management, and software engineering. Graduated with honors."
+        },
+        {
+            "institution": "University of Michigan",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in data mining, machine learning, and statistical modeling. Completed a thesis on the application of deep learning to natural language processing. Awarded a fellowship for academic excellence."
+        }
+    ]
+}

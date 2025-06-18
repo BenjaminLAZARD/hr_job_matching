@@ -1,0 +1,58 @@
+{
+    "first_name": "Anya",
+    "last_name": "Petrova",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "anya.petrova@example.com",
+    "phone": "+79160001234",
+    "address": "Ulitsa Baumanskaya, 58/25, Moscow, Russia",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "Kafka",
+        "Airflow",
+        "AWS",
+        "Data Modeling",
+        "ETL",
+        "Data Warehousing"
+    ],
+    "experiences": [
+        {
+            "company": "NovaData Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2022-01-01",
+            "end_date": null,
+            "description": "Led a team of data engineers in designing and implementing a new data lake solution on AWS using S3, Glue, and Athena. Responsible for ensuring data quality, security, and scalability. Implemented CI/CD pipelines for data engineering processes. Mentored junior data engineers."
+        },
+        {
+            "company": "Quantify Global",
+            "role": "Data Engineer",
+            "start_date": "2019-06-01",
+            "end_date": "2021-12-31",
+            "description": "Developed and maintained ETL pipelines using Apache Spark and Airflow. Integrated data from various sources, including relational databases, NoSQL databases, and APIs. Implemented data quality checks and monitoring systems. Collaborated with data scientists to provide clean and reliable data for analytical models."
+        },
+        {
+            "company": "RosTech Digital Solutions",
+            "role": "Junior Data Engineer",
+            "start_date": "2017-09-01",
+            "end_date": "2019-05-31",
+            "description": "Assisted in the development and maintenance of data pipelines. Wrote SQL queries to extract, transform, and load data. Monitored data pipelines for errors and performance issues. Contributed to the development of data documentation."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Bauman Moscow State Technical University",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2017,
+            "description": "Specialized in machine learning and data mining. Thesis on \"Anomaly Detection in Financial Time Series Data Using Deep Learning\"."
+        },
+        {
+            "institution": "Moscow State University",
+            "degree": "B.Sc. in Applied Mathematics and Informatics",
+            "year_of_graduation": 2015,
+            "description": "Focused on mathematical modeling and software development. Participated in research projects related to optimization and numerical methods."
+        }
+    ]
+}

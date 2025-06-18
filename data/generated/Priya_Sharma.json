@@ -1,0 +1,58 @@
+{
+    "first_name": "Priya",
+    "last_name": "Sharma",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "priya.sharma@example.com",
+    "phone": "+919876543210",
+    "address": "456 Nehru St, Mumbai, India",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Warehousing",
+        "ETL",
+        "Data Modeling",
+        "Data Visualization",
+        "Tableau"
+    ],
+    "experiences": [
+        {
+            "company": "Tata Consultancy Services (TCS)",
+            "role": "Software Engineer",
+            "start_date": "2012-07-01",
+            "end_date": "2015-12-31",
+            "description": "Developed and maintained ETL pipelines for various clients, focusing on data migration and data warehousing solutions. Used SQL, Informatica, and Oracle databases."
+        },
+        {
+            "company": "Infosys",
+            "role": "Data Engineer",
+            "start_date": "2016-01-01",
+            "end_date": "2019-06-30",
+            "description": "Designed and implemented data solutions for a large e-commerce client, including building data lakes and optimizing data pipelines using Spark and Hadoop.  Responsible for data quality and data governance."
+        },
+        {
+            "company": "QuantumLeap Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-07-01",
+            "end_date": "2023-10-31",
+            "description": "Led a team of data engineers in developing and maintaining a scalable data platform on AWS. Implemented data governance policies and ensured data security compliance.  Developed data models and visualizations using Tableau to provide actionable insights to stakeholders. Mentored junior engineers."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Indian Institute of Technology (IIT) Delhi",
+            "degree": "B.Tech in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Completed a Bachelor of Technology degree with a focus on data structures, algorithms, and database management systems.  Participated in various coding competitions and hackathons."
+        },
+        {
+            "institution": "Carnegie Mellon University",
+            "degree": "M.S. in Information Systems",
+            "year_of_graduation": 2016,
+            "description": "Earned a Master of Science degree specializing in Data Science and Information Management. Coursework included machine learning, data mining, and big data analytics. Thesis focused on optimizing data warehousing for real-time analytics."
+        }
+    ]
+}

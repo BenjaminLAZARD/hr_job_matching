@@ -1,0 +1,60 @@
+{
+    "first_name": "Eleanor",
+    "last_name": "Vance",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "eleanor.vance@example.com",
+    "phone": "+14165551212",
+    "address": "45 Elm Street, Toronto, ON, Canada",
+    "skills": [
+        "Python",
+        "SQL",
+        "Data Warehousing",
+        "ETL",
+        "Apache Spark",
+        "AWS",
+        "Data Modeling",
+        "Data Quality",
+        "Data Governance",
+        "Airflow",
+        "Snowflake",
+        "dbt"
+    ],
+    "experiences": [
+        {
+            "company": "Nova Data Solutions",
+            "role": "Data Engineer",
+            "start_date": "2016-06-01",
+            "end_date": "2019-08-30",
+            "description": "Developed and maintained ETL pipelines for ingesting data from various sources into a data warehouse. Implemented data quality checks and monitoring systems. Worked with stakeholders to understand data requirements and design solutions."
+        },
+        {
+            "company": "Zenith Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-09-01",
+            "end_date": "2022-12-31",
+            "description": "Led a team of data engineers in building and maintaining a scalable data platform using Apache Spark and AWS. Designed and implemented data models for analytics and machine learning. Developed tools for data governance and metadata management. Mentored junior data engineers."
+        },
+        {
+            "company": "CloudSpark Technologies",
+            "role": "Principal Data Engineer",
+            "start_date": "2023-01-01",
+            "end_date": null,
+            "description": "Currently leading the data engineering efforts at CloudSpark Technologies, focusing on building a next-generation data platform using Snowflake and dbt. Responsible for defining the data architecture, implementing best practices for data engineering, and collaborating with data scientists and analysts."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Toronto",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Focused on data structures, algorithms, and database systems."
+        },
+        {
+            "institution": "University of Waterloo",
+            "degree": "M.Math in Data Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in machine learning, data mining, and big data analytics. Conducted research on scalable data processing techniques."
+        }
+    ]
+}

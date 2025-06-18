@@ -1,0 +1,55 @@
+{
+    "first_name": "Maya",
+    "last_name": "Rodriguez",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "maya.rodriguez@example.com",
+    "phone": "+15551234567",
+    "address": "456 Oak Ave, Sometown, USA",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Warehousing",
+        "ETL"
+    ],
+    "experiences": [
+        {
+            "company": "Data Solutions Inc.",
+            "role": "Data Engineer",
+            "start_date": "2016-06-01",
+            "end_date": "2020-12-31",
+            "description": "Designed, built, and maintained data pipelines for ingesting, transforming, and loading data from various sources into the data warehouse. Developed ETL processes using Python, Spark, and Hadoop. Ensured data quality and reliability. Worked closely with data scientists and analysts to provide data-driven insights."
+        },
+        {
+            "company": "Analytics Corp",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-01-01",
+            "end_date": "2023-07-31",
+            "description": "Led a team of data engineers in building and maintaining the company's cloud-based data platform on AWS. Implemented data governance policies and procedures. Optimized data pipelines for performance and scalability. Mentored junior data engineers."
+        },
+        {
+            "company": "Innovate Technologies",
+            "role": "Lead Data Engineer",
+            "start_date": "2023-08-01",
+            "end_date": null,
+            "description": "Currently leading a team focused on building a real-time data streaming platform using Kafka and Flink. Responsible for the architecture, design, and implementation of the platform. Collaborating with product managers and other engineering teams to define requirements and deliver solutions."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of California, Berkeley",
+            "degree": "B.S. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Graduated with honors. Focused on database systems and data mining."
+        },
+        {
+            "institution": "Stanford University",
+            "degree": "M.S. in Data Science",
+            "year_of_graduation": 2014,
+            "description": "Completed a Master's degree in Data Science with a specialization in big data analytics. Research focused on developing scalable algorithms for processing large datasets."
+        }
+    ]
+}

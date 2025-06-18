@@ -1,0 +1,58 @@
+{
+    "first_name": "Javier",
+    "last_name": "Rodriguez",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "javier.rodriguez@example.com",
+    "phone": "+34612345678",
+    "address": "Calle de la Piruleta, 15, Madrid, Spain",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Kafka",
+        "AWS",
+        "Data Modeling",
+        "ETL",
+        "Data Warehousing",
+        "Data Visualization",
+        "Airflow"
+    ],
+    "experiences": [
+        {
+            "company": "TerraSolutions",
+            "role": "Data Analyst",
+            "start_date": "2012-06-01",
+            "end_date": "2014-12-31",
+            "description": "Collected and analyzed environmental data. Developed reporting dashboards using Excel and presented findings to clients. Implemented basic data cleaning scripts in Python to improve data quality. Worked with various spatial datasets using GIS software."
+        },
+        {
+            "company": "GlobalTech Dynamics",
+            "role": "Data Engineer",
+            "start_date": "2015-01-05",
+            "end_date": "2019-08-30",
+            "description": "Designed and implemented ETL pipelines to ingest data from various sources into the company's data warehouse. Built and maintained data models for different business units. Used Hadoop and Spark to process large datasets. Automated data quality checks and monitoring processes. Migrated on-premise data infrastructure to AWS."
+        },
+        {
+            "company": "Quantify Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-09-01",
+            "end_date": "2023-10-26",
+            "description": "Lead data engineer responsible for building and maintaining scalable data pipelines using Spark, Kafka, and AWS services (S3, EMR, Redshift). Developed data governance policies and implemented data security measures. Mentored junior data engineers. Worked closely with data scientists and analysts to understand their data needs and provide solutions. Implemented Airflow for workflow orchestration. Built streaming data pipelines for real-time analytics."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Politécnica de Madrid",
+            "degree": "B.Sc. in Telecommunications Engineering",
+            "year_of_graduation": 2012,
+            "description": "Focused on signal processing and data communication. Completed coursework in mathematics, statistics, and programming. Participated in a research project on wireless sensor networks."
+        },
+        {
+            "institution": "ESADE Business School",
+            "degree": "MBA (Part-time)",
+            "year_of_graduation": 2017,
+            "description": "Completed an MBA program focused on strategy and finance. Attended classes part-time while working at GlobalTech Dynamics. Developed skills in business analysis, leadership, and project management. Applied learnings to improve data engineering processes within the company."
+        }
+    ]
+}
