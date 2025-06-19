@@ -1,33 +1,47 @@
-# ...existing code...
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from typing import List, Any
-from src.db import get_qdrant_client, add_candidate_to_db, job_matching
-from src.embed import embed_job, embed_candidate
+from fastapi import FastAPI, Depends
+from fastapi import status
+from fastapi.responses import JSONResponse
+from contextlib import asynccontextmanager
+from data.models import CandidatePayload, JobPayload
+from src.db import add_candidate, job_matching, get_qdrant_client, init
+from src.candidate.embed import embed_candidate, grasp_candidate_info
+from src.job.embed import embed_job
+import uvicorn
 
-app = FastAPI()
+@asynccontextmanager
+def lifespan(app: FastAPI):
+    # Initialize Qdrant and collections at startup
+    init()
+    yield
 
-class CandidatePayload(BaseModel):
-    name: str
-    skills: List[str]
-    experience: str
-    # ...add other fields as needed...
+app = FastAPI(lifespan=lifespan)
 
-class JobSearchPayload(BaseModel):
-    job_description: str
-    top_k: int = 5
+# TODO: make the API more RESTful, e.g. use /candidates and /jobs endpoints
+# TOOD: define a proper CRUD models and separate models into other filess
+# TODO: add the DB as a FASTAPI dependency injection pattern
 
-@app.post("/add_candidate")
-def add_candidate(candidate: CandidatePayload):
+
+@app.post("/candidate")
+def db_add_candidate(candidate: CandidatePayload, qdrant=Depends(get_qdrant_client)):
     # Embed candidate and add to Qdrant
-    embedding = embed_candidate(candidate)
-    result = add_candidate_to_db(candidate, embedding)
-    return {"status": "success", "result": result}
+    candidateInput = grasp_candidate_info(candidate)
+    candidatePoint = embed_candidate(candidateInput)
+    add_candidate(candidatePoint, qdrant)
+    return JSONResponse(
+        content={"message": "Candidate added successfully"},
+        status_code=status.HTTP_201_CREATED,
+    )
 
-@app.post("/job_similarity_search")
-def job_similarity_search(payload: JobSearchPayload):
+
+@app.post("/jobs/search")
+def job_similarity_search(payload: JobPayload, qdrant=Depends(get_qdrant_client)):
     # Embed job description and search similar jobs
-    embedding = embed_job(payload.job_description)
-    results = job_matching(embedding, top_k=payload.top_k)
-    return {"results": results}
-# ...existing code...
+    jobMatchingCriteria = embed_job(payload)
+    results = job_matching(jobMatchingCriteria, qdrant)
+    return JSONResponse(
+        content={"results": results},
+        status_code=status.HTTP_200_OK,
+    )
+
+if __name__ == "__main__":
+    uvicorn.run("src.app.main:app", host="0.0.0.0", port=8000, reload=True)

@@ -1,14 +1,28 @@
+import json
+from pathlib import Path
 from qdrant_client import QdrantClient, models 
+from src.candidate.embed import embed_candidate, grasp_candidate_info
 from config import _ROOT_PATH
 from data.models import JobMatchingCriteria, QdrantPointCandidate 
 from qdrant_client.http.models import PointStruct, ScoredPoint
-from qdrant_client.http.models import Filter, FieldCondition, Range, MatchText
+from qdrant_client.http.models import Filter, FieldCondition, Range
+from data.models import CandidatePayload
+# from pathlib import Path
+# from src.candidate.embed import embed_candidate
 
 # TODO: switch to dev mode with a docker local URL call then cloud
 QDRANT_CLIENT = QdrantClient(path=(_ROOT_PATH / "qdrant.db").as_posix())
 QDRANT_CANDIDATE_COLLECTION_NAME = "candidates"
-QDRANT_EMBEDDING_MODEL_NAME = "models/text-embedding-004"
-EMBEDDING_SIZE = 768
+
+
+def get_qdrant_client():
+    """
+    Returns a Qdrant client instance.
+    This can be used to interact with the Qdrant database.
+    """
+    # TODO: adapt depnding on the environment (local, dev, prod)
+    # In Prod this should be a client connecting over http
+    return QDRANT_CLIENT
 
 
 def init():
@@ -19,23 +33,38 @@ def init():
             QDRANT_CANDIDATE_COLLECTION_NAME,
             vectors_config={
                 "profile_summary": models.VectorParams(size=768, distance=models.Distance.COSINE),
-                "industry_summary": models.VectorParams(size=384, distance=models.Distance.DOT),
-                "core_skills_summary": models.VectorParams(size=128, distance=models.Distance.COSINE),
-                "core_soft_skills_summary": models.VectorParams(size=128, distance=models.Distance.COSINE)
+                "industry_summary": models.VectorParams(size=768, distance=models.Distance.DOT),
+                "core_skills_summary": models.VectorParams(size=768, distance=models.Distance.COSINE),
+                "core_soft_skills_summary": models.VectorParams(size=768, distance=models.Distance.COSINE)
             }
         )
 
-def add_candidate(candidate:QdrantPointCandidate)->None:
+    #TODO: improve this: make it conditional to an env variable (local, dev, prod)
+    #TODO: consider using FASTPI's lifespan function
+    data_dir = _ROOT_PATH / "data" / "generated"
+    for json_file in Path(data_dir).glob("*.json"):
+        candidate_dict = json.loads(json_file.read_text())
+        candidate_payload = CandidatePayload(**candidate_dict)
+        candidateInput = grasp_candidate_info(candidate_payload)
+        candidatePoint = embed_candidate(candidateInput)
+        add_candidate(candidatePoint, QDRANT_CLIENT)
+        print(f"Added candidate from {json_file.name} to Qdrant collection {QDRANT_CANDIDATE_COLLECTION_NAME}")
+
+def add_candidate(candidate:QdrantPointCandidate, qdrant_client:QdrantClient)->None:
     # adds a candidate to the collection
     # add an id on the fly
 
     #TODO: keep track of ids with a proper counter in a QDRANT-friendly way
-    points, _ = QDRANT_CLIENT.scroll(
+    points, _ = qdrant_client.scroll(
         collection_name=QDRANT_CANDIDATE_COLLECTION_NAME,
         limit=1,
         with_payload=False,
         with_vectors=False,
-        order_by=[("id", "desc")]
+        order_by=models.OrderBy(
+            key="id",
+            direction=models.Direction.DESC,  # default is "asc"
+            start_from=0,  # start from this value
+        )
     )
     if points:
         next_id = int(points[0].id) + 1
@@ -58,7 +87,7 @@ def modify_candidate():
     # by id
     ...
 
-def job_matching(job:JobMatchingCriteria)->list[ScoredPoint]:
+def job_matching(job:JobMatchingCriteria, qdrant_client:QdrantClient)->list[ScoredPoint]:
     if job.min_xp_years is None:
         minxp = 0
     else:
@@ -86,7 +115,7 @@ def job_matching(job:JobMatchingCriteria)->list[ScoredPoint]:
 
     # similarity search
     #TODO: perform weighted average or reciprocal rank fusion with all available vectors and several similarity searches
-    hits = QDRANT_CLIENT.search(
+    hits = qdrant_client.search(
         collection_name=QDRANT_CANDIDATE_COLLECTION_NAME,
         query_vector=job.job_summary,
         vector_name="profile_summary",

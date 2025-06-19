@@ -1,7 +1,9 @@
 from config import GOOGLE_CLIENT, MODEL_NAME
 from google.genai import types
-from db import QDRANT_EMBEDDING_MODEL_NAME, EMBEDDING_SIZE
 
+
+QDRANT_EMBEDDING_MODEL_NAME = "models/text-embedding-004"
+EMBEDDING_SIZE = 768
 EDUCATION_MAP = {"Bachelor": 1, "Master": 2, "PhD": 3}
 
 def custom_generate_content(prompt: str) -> str:

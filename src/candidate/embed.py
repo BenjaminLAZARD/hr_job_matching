@@ -2,6 +2,7 @@ from datetime import datetime
 from typing import Literal
 from data.models import QdrantInputCandidate, QdrantPointCandidate, QdrantPointCandidatePayload, QdrantPointCandidateVectors
 from src.embed import EDUCATION_MAP, custom_generate_content, embed_text
+from data.models import CandidatePayload
 
 __PROFILE_SUMMARY_PROMPT = """You are a helpful Human Resource Assistance. Your task is to provide a summary of a candidate for a position at our company.
 
@@ -47,15 +48,15 @@ Candidate information:
 """
 
 
-def extract_years_of_experience(candidate_json: dict) -> int:
-    start = min([xp["start_date"] for xp in candidate_json["experiences"]])
-    ends = [xp["end_date"] for xp in candidate_json["experiences"]]
+def extract_years_of_experience(candidate_json: CandidatePayload) -> int:
+    start = min([xp["start_date"] if xp["start_date"] is not None else "1900-01-01" for xp in candidate_json.experiences])
+    ends = [xp["end_date"] if xp["end_date"] is not None else datetime.now().strftime("%Y-%m-%d") for xp in candidate_json.experiences]
     if "" in ends:
         end = datetime.now().strftime("%Y-%m-%d")
     else:
-        end = max(ends)
+        end = max(ends) #type:ignore
 
-    start_date = datetime.strptime(start, "%Y-%m-%d")
+    start_date = datetime.strptime(start, "%Y-%m-%d") #type:ignore
     end_date = datetime.strptime(end, "%Y-%m-%d")
     diff_years = (end_date - start_date).days / 365
     years_of_experience = (
@@ -65,9 +66,9 @@ def extract_years_of_experience(candidate_json: dict) -> int:
 
 
 def extract_highest_education(
-    candidate_json: dict,
+    candidate_json: CandidatePayload,
 ) -> Literal["Bachelor", "Master", "PhD", "None"]:
-    educations = [ed["degree"] for ed in candidate_json["education"]]
+    educations = [ed["degree"] for ed in candidate_json.education]
     prompt = f"""Based on the following degrees, what is the highest education this person has? The answer must be a single word, either "Bachelor", "Master" or "PhD".
     {educations}
     """
@@ -81,7 +82,7 @@ def extract_highest_education(
     return "None"
 
 
-def extract_industry_sectors(candidate_json: dict) -> str:
+def extract_industry_sectors(candidate_json: CandidatePayload) -> str:
     prompt = """You are a helpful Human Resource Assistance. Your task is to provide a summary of the industries the candidate worked in.
 
 Bear in mind that you must
@@ -97,7 +98,7 @@ Candidate information:
     return out
 
 
-def extract_skills(candidate_json: dict) -> str:
+def extract_skills(candidate_json: CandidatePayload) -> str:
     prompt = """You are a helpful Human Resource Assistance. Your task is to provide a summary of the core technical skills the candidate has.
 
 Bear in mind that you must
@@ -112,7 +113,7 @@ Candidate information:
     return out
 
 
-def extract_technologies(candidate_json: dict) -> str:
+def extract_technologies(candidate_json: CandidatePayload) -> str:
     prompt = """You are a helpful Human Resource Assistance. Your task is to provide a list of specific tech skills the candidate has.
 
 Bear in mind that you must
@@ -126,7 +127,7 @@ Candidate information:
     out = custom_generate_content(prompt.format(data=candidate_json))
     return out
 
-def grasp_candidate_info(candidate_json: dict) -> QdrantInputCandidate:
+def grasp_candidate_info(candidate_json: CandidatePayload) -> QdrantInputCandidate:
     # TODO: ideally candidate should be a valid Pydantic model as defined in sata/models.py
 
     # Vector-like
@@ -151,8 +152,8 @@ def grasp_candidate_info(candidate_json: dict) -> QdrantInputCandidate:
     tehnologies_used = extract_technologies(candidate_json)
 
     qdrantInputCandidate = QdrantInputCandidate(
-        first_name=candidate_json["first_name"],
-        last_name=candidate_json["last_name"],
+        first_name=candidate_json.first_name,
+        last_name=candidate_json.last_name,
         profile_summary=profile_summary,
         industry_summary=industry_summary,
         core_skills_summary=core_skills_summary,

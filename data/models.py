@@ -53,3 +53,32 @@ class JobMatchingCriteria(BaseModel):
     min_education:int | None = None #TODO: unify the level currently in the embed function of the candidate
     mandatory_industry_sector:str
     job_summary:list[float] #embedded job summary
+
+# For the API inputs 
+# TODO: transfer to a dedicated file under app/models for exp
+class CandidatePayload(BaseModel):
+    first_name: str
+    last_name: str
+    birthdate: str
+    age:int
+    email:str
+    phone:str
+    address: str
+    skills: list[str]
+    experiences: list[dict[str,str|None|int]]
+    education: list[dict[str,str|int|None]]
+
+class BudgetPayload(BaseModel):
+    min: int | None
+    max: int | None
+    currency: str
+
+
+class JobPayload(BaseModel):
+    job_title: str
+    job_description: str
+    budget: BudgetPayload
+    location: str
+    company_name: str
+    employment_type: str
+    required_skills: list[str]
