@@ -1,0 +1,58 @@
+{
+    "first_name": "Sofia",
+    "last_name": "Nowak",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "sofia.nowak@example.com",
+    "phone": "+48123456789",
+    "address": "Krakowska 25, Warsaw, Poland",
+    "skills": [
+        "Python",
+        "Machine Learning",
+        "Data Analysis",
+        "SQL",
+        "TensorFlow",
+        "PyTorch",
+        "Data Visualization",
+        "Cloud Computing (AWS, Azure)",
+        "A/B Testing",
+        "Statistical Modeling"
+    ],
+    "experiences": [
+        {
+            "company": "FutureVision AI",
+            "role": "Data Scientist",
+            "start_date": "2021-06-01",
+            "end_date": null,
+            "description": "Currently building machine learning models to personalize user experiences. Analyzing user behavior data, identifying trends, and predicting future actions. Collaborating with engineers and product managers to integrate models into product features. Implementing A/B tests to evaluate model performance and identify areas for improvement."
+        },
+        {
+            "company": "NovaTech Solutions",
+            "role": "Data Analyst",
+            "start_date": "2018-09-01",
+            "end_date": "2021-05-31",
+            "description": "Developed and maintained data pipelines for collecting, processing, and analyzing large datasets. Performed exploratory data analysis to identify key trends and insights. Created data visualizations to communicate findings to stakeholders. Supported the development of machine learning models by providing clean and well-structured data."
+        },
+        {
+            "company": "GlobalData Analytics Corp.",
+            "role": "Junior Data Analyst",
+            "start_date": "2016-07-01",
+            "end_date": "2018-08-31",
+            "description": "Assisted senior data analysts in data collection, cleaning, and analysis. Created reports and presentations summarizing key findings. Developed SQL queries to extract data from relational databases. Contributed to the development of data documentation and best practices."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Warsaw",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2016,
+            "description": "Master's thesis focused on developing a novel machine learning algorithm for predicting customer churn. Courses included statistical modeling, machine learning, data mining, and database management."
+        },
+        {
+            "institution": "AGH University of Science and Technology",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Bachelor's degree focused on software engineering and database systems. Courses included algorithms, data structures, programming languages, and database design."
+        }
+    ]
+}

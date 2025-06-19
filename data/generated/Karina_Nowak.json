@@ -1,0 +1,58 @@
+{
+    "first_name": "Karina",
+    "last_name": "Nowak",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "karina.nowak@email.com",
+    "phone": "+48123456789",
+    "address": "Krakowska 12, Warsaw, Poland",
+    "skills": [
+        "Financial Analysis",
+        "Budgeting",
+        "Forecasting",
+        "Investment Strategies",
+        "Data Analysis",
+        "Excel",
+        "SQL",
+        "Reporting",
+        "Compliance",
+        "Risk Management"
+    ],
+    "experiences": [
+        {
+            "company": "PolCorp Financial",
+            "role": "Junior Financial Analyst",
+            "start_date": "2015-07-01",
+            "end_date": "2018-06-30",
+            "description": "Assisted in the preparation of monthly financial reports, analyzed variances, and supported the budgeting process. Developed and maintained financial models to forecast future performance. Worked closely with various departments to gather financial data and ensure accuracy."
+        },
+        {
+            "company": "GlobeTech Solutions",
+            "role": "Financial Analyst",
+            "start_date": "2018-07-01",
+            "end_date": "2022-12-31",
+            "description": "Analyzed financial data, prepared reports, and assisted in forecasting future financial performance. Supported budgeting and investment strategies for various departments. Ensured compliance with regulations. Developed and implemented process improvements to enhance efficiency."
+        },
+        {
+            "company": "InnoVision Capital",
+            "role": "Senior Financial Analyst",
+            "start_date": "2023-01-01",
+            "end_date": null,
+            "description": "Leading financial analysis efforts, providing strategic insights to senior management. Managing budgeting, forecasting, and investment strategies. Ensuring compliance and driving process improvements across the organization. Mentoring junior analysts and contributing to team development."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Warsaw",
+            "degree": "B.Sc. in Economics",
+            "year_of_graduation": 2012,
+            "description": "Focused on microeconomics, macroeconomics, and econometrics. Participated in various student projects and research initiatives."
+        },
+        {
+            "institution": "Warsaw School of Economics",
+            "degree": "M.Sc. in Finance and Accounting",
+            "year_of_graduation": 2014,
+            "description": "Specialized in financial modeling, investment analysis, and corporate finance. Completed a thesis on the impact of regulatory changes on the banking sector."
+        }
+    ]
+}

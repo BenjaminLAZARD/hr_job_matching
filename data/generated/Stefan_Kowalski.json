@@ -1,0 +1,59 @@
+{
+    "first_name": "Stefan",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "stefan.kowalski@email.com",
+    "phone": "+48123456789",
+    "address": "Krakowska 26, Krakow, Poland",
+    "skills": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "React",
+        "Node.js",
+        "SQL",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Agile Methodologies"
+    ],
+    "experiences": [
+        {
+            "company": "InnoTech Solutions",
+            "role": "Software Engineer",
+            "start_date": "2014-07-01",
+            "end_date": "2017-06-30",
+            "description": "Developed and maintained web applications using Java and Spring framework. Implemented RESTful APIs for data exchange. Collaborated with front-end developers to integrate UI components. Participated in code reviews and testing processes."
+        },
+        {
+            "company": "QuantumLeap Technologies",
+            "role": "Senior Software Engineer",
+            "start_date": "2017-07-01",
+            "end_date": "2020-12-31",
+            "description": "Led a team of engineers in developing a scalable microservices architecture using Docker and Kubernetes on AWS. Designed and implemented CI/CD pipelines for automated deployments. Mentored junior developers and provided technical guidance. Focused on improving system performance and reliability."
+        },
+        {
+            "company": "Zenith Dynamics",
+            "role": "Software Architect",
+            "start_date": "2021-01-01",
+            "end_date": "2023-12-31",
+            "description": "Designed and implemented cloud-based solutions for enterprise clients using AWS services. Developed architectural patterns and best practices for scalability, security, and performance. Collaborated with stakeholders to define technical requirements and solution roadmaps. Provided technical leadership and mentorship to engineering teams."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Focused on distributed systems and cloud computing. Completed a thesis on scalable data processing using Apache Spark."
+        },
+        {
+            "institution": "Jagiellonian University",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Gained a solid foundation in computer science principles, including algorithms, data structures, and software engineering."
+        }
+    ]
+}

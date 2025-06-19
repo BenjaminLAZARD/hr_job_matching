@@ -1,0 +1,58 @@
+{
+    "first_name": "Kenzo",
+    "last_name": "Dubois",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "kenzo.dubois@email.com",
+    "phone": "+33612345678",
+    "address": "10 Rue de la Paix, Paris, France",
+    "skills": [
+        "Product Management",
+        "Agile Methodologies",
+        "Market Analysis",
+        "User Research",
+        "Strategic Planning",
+        "Data Analysis",
+        "AI/ML",
+        "Customer Service Technologies",
+        "JIRA",
+        "Confluence"
+    ],
+    "experiences": [
+        {
+            "company": "NovaTech Solutions",
+            "role": "Product Manager",
+            "start_date": "2021-01-15",
+            "end_date": null,
+            "description": "Lead the product roadmap and strategy for an AI-powered customer service tool. Conduct user research, analyze market trends, and collaborate with engineering and design teams to deliver impactful features. Focus on creating a seamless and effective user experience that improves customer satisfaction and reduces operational costs. Implemented A/B testing to optimize product features and increase user engagement by 25%. Defined and tracked key performance indicators (KPIs) to measure product success."
+        },
+        {
+            "company": "Global Dynamics",
+            "role": "Associate Product Manager",
+            "start_date": "2018-06-01",
+            "end_date": "2020-12-31",
+            "description": "Supported the product management team in the development and launch of a new cloud-based CRM system. Conducted competitive analysis, gathered user requirements, and assisted with the creation of product specifications. Worked closely with engineering and marketing teams to ensure successful product releases. Contributed to a 15% increase in customer adoption rate through targeted marketing campaigns and user training programs. Managed backlog grooming, sprint planning and daily stand ups as the scrum master"
+        },
+        {
+            "company": "Startup X",
+            "role": "Business Analyst Intern",
+            "start_date": "2017-06-01",
+            "end_date": "2017-09-01",
+            "description": "Conducted market research and competitive analysis to identify new business opportunities. Developed financial models and forecasts to support strategic decision-making. Prepared presentations and reports for senior management. Gained valuable experience in data analysis, financial modeling, and strategic planning."
+        }
+    ],
+    "education": [
+        {
+            "institution": "École Polytechnique",
+            "degree": "M.Sc. in Engineering",
+            "year_of_graduation": 2018,
+            "description": "Specialized in Data Science and Machine Learning. Completed a thesis on the application of AI in customer service. GPA: 3.8/4.0"
+        },
+        {
+            "institution": "HEC Paris",
+            "degree": "MBA",
+            "year_of_graduation": 2020,
+            "description": "Focused on Strategy and Innovation. Developed strong business acumen and leadership skills. Participated in case competitions and consulting projects. Ranked in the top 10% of the class."
+        }
+    ]
+}

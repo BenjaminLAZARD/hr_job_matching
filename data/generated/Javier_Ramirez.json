@@ -1,0 +1,57 @@
+{
+    "first_name": "Javier",
+    "last_name": "Ramirez",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "javier.ramirez@email.com",
+    "phone": "+525512345678",
+    "address": "Av. Insurgentes Sur 1234, Col. Roma Sur, Ciudad de México, México",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Modeling",
+        "ETL Pipelines",
+        "Data Warehousing",
+        "Data Governance"
+    ],
+    "experiences": [
+        {
+            "company": "CloudRise Industries",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-01-01",
+            "end_date": "2023-12-31",
+            "description": "Led the design and implementation of scalable data pipelines using Spark and AWS Glue. Developed data models for various business units, ensuring data quality and consistency. Mentored junior data engineers and promoted best practices for data governance."
+        },
+        {
+            "company": "Global Tech Nexus",
+            "role": "Data Engineer",
+            "start_date": "2018-07-01",
+            "end_date": "2020-12-31",
+            "description": "Built and maintained ETL pipelines for ingesting data from diverse sources into the data warehouse. Developed SQL queries for data analysis and reporting. Implemented data quality checks and monitoring systems. Worked with stakeholders to understand their data needs and provide solutions."
+        },
+        {
+            "company": "Innova Solutions SA de CV",
+            "role": "Junior Data Analyst",
+            "start_date": "2016-01-01",
+            "end_date": "2018-06-30",
+            "description": "Assisted in the collection, cleaning, and analysis of data. Created reports and dashboards to track key performance indicators. Supported the development of data-driven insights to improve business decision-making. Gained experience in SQL, Excel, and data visualization tools."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2015,
+            "description": "Completed coursework in data structures, algorithms, database management, and software engineering. Participated in a capstone project to develop a data-driven application for a real-world problem."
+        },
+        {
+            "institution": "University of California, Berkeley",
+            "degree": "Exchange Program - Data Science",
+            "year_of_graduation": 2014,
+            "description": "Participated in an exchange program focused on data science. Took courses in machine learning, statistical inference, and data visualization. Collaborated with students from diverse backgrounds on research projects."
+        }
+    ]
+}

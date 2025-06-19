@@ -1,0 +1,63 @@
+{
+    "first_name": "Kai",
+    "last_name": "Schmidt",
+    "birthdate": "1988-05-12",
+    "age": 35,
+    "email": "kai.schmidt@email.de",
+    "phone": "+491765551234",
+    "address": "Am Olympiapark 2, 80809 München, Germany",
+    "skills": [
+        "Product Strategy",
+        "Roadmap Definition",
+        "Market Research",
+        "User Story Creation",
+        "Sprint Planning",
+        "Agile Methodologies",
+        "Data Analysis",
+        "Competitive Analysis",
+        "AI/ML Product Management"
+    ],
+    "experiences": [
+        {
+            "company": "DeepSea Analytics",
+            "role": "Product Manager",
+            "start_date": "2021-01-15",
+            "end_date": "2023-12-20",
+            "description": "Led the product development of a new AI-powered analytics platform for the maritime industry. Defined product strategy, conducted market research, and managed the product roadmap. Collaborated closely with engineering and design teams to deliver a high-quality product that met customer needs. Increased user engagement by 40% in the first year."
+        },
+        {
+            "company": "Bosch",
+            "role": "Associate Product Manager",
+            "start_date": "2018-06-01",
+            "end_date": "2020-12-31",
+            "description": "Supported the product management team in developing and launching new features for Bosch's automotive software products. Conducted market research, analyzed customer data, and developed user stories. Assisted with sprint planning and product backlog management."
+        },
+        {
+            "company": "Freelance Consulting",
+            "role": "Product Consultant",
+            "start_date": "2024-01-05",
+            "end_date": "2024-05-20",
+            "description": "Provided product consulting services to several startups, focusing on early stage product strategy and market validation. Helped develop MVPs and GTM strategies."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Technische Universität München (TUM)",
+            "degree": "M.Sc. in Management & Technology",
+            "year_of_graduation": 2018,
+            "description": "Focus on innovation management and entrepreneurship. Thesis on \"The Impact of AI on Product Development Processes\""
+        },
+        {
+            "institution": "Stanford University",
+            "degree": "Exchange Program - Product Management",
+            "year_of_graduation": 2017,
+            "description": "Semester abroad focusing on product management principles and practices. Intensive courses and workshops on product strategy, user experience design, and agile development."
+        },
+        {
+            "institution": "Technische Universität München (TUM)",
+            "degree": "B.Sc. in Electrical Engineering",
+            "year_of_graduation": 2016,
+            "description": "Core curriculum in electrical engineering with a focus on signal processing and embedded systems."
+        }
+    ]
+}

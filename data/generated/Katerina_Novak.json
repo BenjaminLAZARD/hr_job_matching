@@ -1,0 +1,57 @@
+{
+    "first_name": "Katerina",
+    "last_name": "Novak",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "katerina.novak@example.com",
+    "phone": "+48123456789",
+    "address": "ul. Marszalkowska 1, Warsaw, Poland",
+    "skills": [
+        "Financial Modeling",
+        "Budgeting",
+        "Forecasting",
+        "Financial Analysis",
+        "IFRS",
+        "SAP",
+        "Excel",
+        "Data Analysis",
+        "Strategic Planning"
+    ],
+    "experiences": [
+        {
+            "company": "StalTech Industries",
+            "role": "Financial Analyst",
+            "start_date": "2012-06-01",
+            "end_date": "2015-12-31",
+            "description": "Developed and maintained financial models for various projects. Conducted variance analysis and reported on key performance indicators. Assisted in the preparation of annual budgets and forecasts. Implemented new accounting procedures to improve efficiency."
+        },
+        {
+            "company": "Global PetroSolutions",
+            "role": "Senior Financial Analyst",
+            "start_date": "2016-01-01",
+            "end_date": "2019-12-31",
+            "description": "Led the financial analysis for mergers and acquisitions. Managed a team of financial analysts. Prepared presentations for senior management. Improved the accuracy of financial forecasts by implementing new statistical techniques. Evaluated investment opportunities and provided recommendations."
+        },
+        {
+            "company": "Nova Dynamics",
+            "role": "Finance Manager",
+            "start_date": "2020-01-01",
+            "end_date": "2023-10-31",
+            "description": "Managed the company's budget and financial forecasting. Ensured accurate financial reporting and compliance. Identified opportunities for cost reduction and revenue enhancement. Provided strategic recommendations to the leadership team. Oversaw the implementation of a new ERP system."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Warsaw",
+            "degree": "Master of Finance",
+            "year_of_graduation": 2012,
+            "description": "Majored in Corporate Finance. Thesis on \"The Impact of Corporate Governance on Financial Performance.\""
+        },
+        {
+            "institution": "Copenhagen Business School",
+            "degree": "Exchange Program",
+            "year_of_graduation": 2011,
+            "description": "One-semester exchange program focusing on international finance and business strategy."
+        }
+    ]
+}

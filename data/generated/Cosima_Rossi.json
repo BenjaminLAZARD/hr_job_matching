@@ -1,0 +1,57 @@
+{
+    "first_name": "Cosima",
+    "last_name": "Rossi",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "cosima.rossi@example.com",
+    "phone": "+393471234567",
+    "address": "Via Montenapoleone, 8, 20121 Milano, Italy",
+    "skills": [
+        "Product Management",
+        "Agile Methodologies",
+        "Market Research",
+        "Data Analysis",
+        "Competitive Analysis",
+        "SaaS",
+        "AI/ML",
+        "User Experience (UX)",
+        "User Interface (UI)"
+    ],
+    "experiences": [
+        {
+            "company": "BellaTech Solutions",
+            "role": "Product Manager",
+            "start_date": "2015-07-01",
+            "end_date": "2017-12-31",
+            "description": "Led the product development and launch of a new mobile application for small businesses. Managed a team of engineers and designers, and collaborated with marketing to drive adoption. Increased user engagement by 40% within the first year."
+        },
+        {
+            "company": "Starlight Analytics",
+            "role": "Senior Market Analyst",
+            "start_date": "2018-01-01",
+            "end_date": "2020-06-30",
+            "description": "Conducted market research and competitive analysis to identify opportunities for new product development. Developed detailed reports and presentations to communicate findings to senior management. Improved the accuracy of market forecasts by 25%."
+        },
+        {
+            "company": "QuantumLeap Dynamics",
+            "role": "Senior Product Manager",
+            "start_date": "2020-07-01",
+            "end_date": "2023-12-31",
+            "description": "Responsible for the product roadmap and execution of our AI-powered marketing tool. Worked closely with engineering, design, and marketing teams to ensure the product meets market needs and delivers a seamless user experience. Focused on feature prioritization and data-driven decision making, resulting in a 30% increase in customer satisfaction scores. \"Successfully launched version 2.0 of the core product, integrating advanced machine learning algorithms for personalized marketing campaigns.\""
+        }
+    ],
+    "education": [
+        {
+            "institution": "Politecnico di Milano",
+            "degree": "M.Sc. in Management Engineering",
+            "year_of_graduation": 2015,
+            "description": "Focused on quantitative methods and optimization. Thesis on \"Supply Chain Optimization in the Fashion Industry\"."
+        },
+        {
+            "institution": "ESADE Business School",
+            "degree": "Exchange Program - MBA",
+            "year_of_graduation": 2014,
+            "description": "Semester abroad focused on entrepreneurship and innovation. Participated in case studies and business plan competitions."
+        }
+    ]
+}

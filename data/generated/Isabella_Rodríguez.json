@@ -1,0 +1,58 @@
+{
+    "first_name": "Isabella",
+    "last_name": "Rodríguez",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "isabella.rodriguez@email.com",
+    "phone": "+525512345678",
+    "address": "Av. Insurgentes Sur 1234, Ciudad de México, México",
+    "skills": [
+        "Python",
+        "SQL",
+        "Data Warehousing",
+        "ETL",
+        "AWS",
+        "Spark",
+        "Hadoop",
+        "Data Modeling",
+        "Data Visualization (Tableau, Power BI)",
+        "Data Governance"
+    ],
+    "experiences": [
+        {
+            "company": "Solstice Analytics",
+            "role": "Data Engineer",
+            "start_date": "2016-08-01",
+            "end_date": "2018-12-15",
+            "description": "Developed and maintained ETL pipelines using Python and Spark to ingest data from various sources into a cloud-based data warehouse. Implemented data quality checks and monitoring systems. Contributed to the design and implementation of a data governance framework. Improved data processing efficiency by 30% through optimized Spark configurations."
+        },
+        {
+            "company": "Global Reach Marketing",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-01-02",
+            "end_date": "2021-07-30",
+            "description": "Led a team of data engineers in building a scalable data platform on AWS. Designed and implemented data models for marketing campaigns and customer segmentation. Managed and optimized data warehousing solutions (Snowflake). Mentored junior data engineers on best practices for data engineering and cloud computing."
+        },
+        {
+            "company": "AetherTech Solutions",
+            "role": "Lead Data Engineer",
+            "start_date": "2021-08-15",
+            "end_date": "2023-12-31",
+            "description": "Architected and implemented a new data lake solution using Hadoop and Spark to support advanced analytics and machine learning initiatives. Developed and maintained data pipelines for real-time data ingestion and processing. Collaborated with data scientists to build and deploy machine learning models. Implemented data security and access control policies to ensure data privacy and compliance."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Nacional Autónoma de México (UNAM)",
+            "degree": "B.Sc. in Computer Engineering",
+            "year_of_graduation": 2016,
+            "description": "Relevant coursework included Data Structures and Algorithms, Database Management Systems, and Software Engineering."
+        },
+        {
+            "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2019,
+            "description": "Thesis focused on developing scalable machine learning algorithms for fraud detection. GPA: 3.8/4.0. Actively participated in data science competitions and hackathons."
+        }
+    ]
+}

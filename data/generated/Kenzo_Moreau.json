@@ -1,0 +1,59 @@
+{
+    "first_name": "Kenzo",
+    "last_name": "Moreau",
+    "birthdate": "1988-05-20",
+    "age": 35,
+    "email": "kenzo.moreau@email.com",
+    "phone": "+33612345678",
+    "address": "10 Rue de la Paix, Paris, France",
+    "skills": [
+        "Product Management",
+        "Agile Methodologies",
+        "Market Analysis",
+        "Competitive Analysis",
+        "User Research",
+        "Roadmap Planning",
+        "Data Analysis",
+        "A/B Testing",
+        "Product Strategy",
+        "JIRA",
+        "Confluence"
+    ],
+    "experiences": [
+        {
+            "company": "Zenith Innovations",
+            "role": "Product Manager",
+            "start_date": "2021-01-15",
+            "end_date": "Present",
+            "description": "Driving product vision and strategy for a new line of AI-powered marketing tools. Collaborating with engineering, design, and marketing teams to define product features, prioritize development, and ensure successful product launches. Conducting user research, analyzing market trends, and defining product roadmaps. Managing the entire product lifecycle, from ideation to launch and iteration. Utilizing data-driven decision-making and a user-centric approach."
+        },
+        {
+            "company": "Global Dynamics Corp.",
+            "role": "Senior Product Specialist",
+            "start_date": "2018-06-01",
+            "end_date": "2020-12-31",
+            "description": "Led the development and launch of a new mobile application, resulting in a 30% increase in user engagement. Conducted market research and competitive analysis to identify opportunities for product innovation. Worked closely with engineering and design teams to define product requirements and specifications. Managed product backlog and prioritized features based on user feedback and business priorities."
+        },
+        {
+            "company": "NovaTech Solutions",
+            "role": "Associate Product Manager",
+            "start_date": "2016-09-01",
+            "end_date": "2018-05-31",
+            "description": "Assisted in the development and execution of product strategies for a portfolio of software products. Conducted user research and gathered feedback to identify areas for improvement. Supported the product management team in day-to-day activities, including market analysis, competitive analysis, and product documentation."
+        }
+    ],
+    "education": [
+        {
+            "institution": "HEC Paris",
+            "degree": "Master of Business Administration (MBA)",
+            "year_of_graduation": 2016,
+            "description": "Concentration in Marketing and Strategy. GPA: 3.8/4.0. Relevant coursework included Product Management, Marketing Strategy, and Financial Analysis."
+        },
+        {
+            "institution": "École Polytechnique",
+            "degree": "Master of Science in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Specialization in Artificial Intelligence. Thesis: \"Development of a Novel Algorithm for Sentiment Analysis\". Graduated with honors."
+        }
+    ]
+}

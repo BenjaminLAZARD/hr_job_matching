@@ -1,0 +1,59 @@
+{
+    "first_name": "Bogdan",
+    "last_name": "Nowak",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "bogdan.nowak@email.com",
+    "phone": "+48500123456",
+    "address": "ul. Nowa 5, 00-001 Warszawa, Poland",
+    "skills": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "Spring Boot",
+        "React",
+        "SQL",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Git",
+        "Agile Development"
+    ],
+    "experiences": [
+        {
+            "company": "TechSolutions Global",
+            "role": "Software Engineer",
+            "start_date": "2016-07-01",
+            "end_date": "2019-06-30",
+            "description": "Developed and maintained Java-based web applications. Implemented RESTful APIs using Spring Boot. Contributed to the design and implementation of new features. Worked in an Agile development environment. Collaborated with cross-functional teams to deliver high-quality software solutions. Improved application performance by optimizing database queries."
+        },
+        {
+            "company": "InnovateSoft Poland",
+            "role": "Senior Software Engineer",
+            "start_date": "2019-07-01",
+            "end_date": "2021-12-31",
+            "description": "Led the development of a new microservice architecture for a key product feature using Spring Boot, Docker, and Kubernetes. Mentored junior developers. Implemented CI/CD pipelines using Jenkins. Improved code quality through code reviews and unit testing. Worked closely with product owners to define and prioritize product requirements. Proactively identified and resolved performance bottlenecks."
+        },
+        {
+            "company": "CyberDyn Industries",
+            "role": "Software Engineer (Product)",
+            "start_date": "2022-01-01",
+            "end_date": "2023-10-31",
+            "description": "Designed and developed new features for the company's flagship software product. Collaborated with product managers to understand user needs and translated them into technical specifications. Debugged, tested, and improved the overall performance of the product. Utilized React for frontend development and Java for backend services. Integrated with third-party APIs."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in software engineering and data structures. Completed a thesis on distributed systems."
+        },
+        {
+            "institution": "University of Warsaw",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Focused on algorithms and programming languages. Participated in several programming contests."
+        }
+    ]
+}

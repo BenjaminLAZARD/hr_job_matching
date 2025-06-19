@@ -1,0 +1,59 @@
+{
+    "first_name": "Nadia",
+    "last_name": "Kowalski",
+    "birthdate": "1992-05-15",
+    "age": 31,
+    "email": "nadia.kowalski@email.com",
+    "phone": "+48123456789",
+    "address": "ul. Krakowska 25, 00-001 Warszawa, Poland",
+    "skills": [
+        "Financial Modeling",
+        "Data Analysis",
+        "Budgeting",
+        "Forecasting",
+        "Report Writing",
+        "Excel",
+        "SQL",
+        "Python (Pandas, NumPy)",
+        "Bloomberg Terminal",
+        "Financial Regulations",
+        "Accounting Principles"
+    ],
+    "experiences": [
+        {
+            "company": "Polski Gaz SA",
+            "role": "Financial Analyst Intern",
+            "start_date": "2014-06-01",
+            "end_date": "2014-08-31",
+            "description": "Assisted senior analysts in preparing financial reports and presentations. Gained experience in data entry and analysis using Excel. Supported the team in budgeting processes and variance analysis."
+        },
+        {
+            "company": "EuroCorp Investments",
+            "role": "Junior Financial Analyst",
+            "start_date": "2015-09-01",
+            "end_date": "2018-12-31",
+            "description": "Conducted financial analysis of potential investment opportunities. Developed financial models to forecast future performance. Prepared investment recommendations for senior management. Participated in due diligence processes."
+        },
+        {
+            "company": "Global Dynamics Group",
+            "role": "Financial Analyst",
+            "start_date": "2019-01-01",
+            "end_date": "2023-10-26",
+            "description": "Analyzed financial data and prepared reports on the company's performance. Identified trends and made recommendations for improvement. Assisted in the budgeting and forecasting processes. Ensured compliance with financial regulations. Developed and maintained financial models for various business units. Led cross-functional projects to improve financial reporting and analysis processes."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw School of Economics",
+            "degree": "M.Sc. in Finance and Accounting",
+            "year_of_graduation": 2015,
+            "description": "Graduated with honors. Thesis focused on the impact of macroeconomic factors on the Polish stock market."
+        },
+        {
+            "institution": "University of Cambridge",
+            "degree": "Exchange Program - Economics",
+            "year_of_graduation": 2014,
+            "description": "Participated in an exchange program focusing on advanced economic theory and econometrics. Gained international experience and broadened my understanding of global financial markets."
+        }
+    ]
+}

@@ -3,7 +3,7 @@ import json
 from config import GOOGLE_CLIENT, MODEL_NAME
 from google import genai
 from google.genai import types
-from alive_progress import alive_bar
+from alive_progress import alive_bar  # type: ignore
 from time import sleep
 
 
@@ -48,7 +48,7 @@ Your output:
                 model=model_name,
                 contents=[
                     types.Part.from_text(
-                        text="You are a synthetic data generator. Give me a random first name and last name for an employee, pick his job (possible profiles are product, sales, backend, frontend, data engineer, fullstack, architect, etc.), describe in 3 lines what he/she does. Provide his/her country, name of colleges attended, and name of companies. Use random companies names (realistic, big or small). Make the name ethnically diverse, use all possible countries including Europe (France, Spain, Greece, Italy, Poland, Estonia), USA, Latin America, Asia. Do not use names Anya or Elias"
+                        text="You are a synthetic data generator. Give me a random first name and last name for an employee, pick his job (possible profiles are product, sales, finance, etc.), describe in 3 lines what he/she does. Provide his/her country, name of colleges attended, and name of companies. Use random companies names (realistic, big or small). Make the name ethnically diverse, use all possible countries including Europe (France, Spain, Greece, Italy, Poland, Estonia). Do not use names Anya, Elias, Lakshmi, Maya, Kwame, Jian, Javier, Eliza, Aisha"
                     )
                 ],
                 config=_model_config,
@@ -65,7 +65,7 @@ Your output:
                 config=_model_config,
             )
 
-            if response is not None:
+            if response and response.text is not None:
                 cleaned_response = (
                     response.text.replace("```json", "").replace("```", "").strip()
                 )

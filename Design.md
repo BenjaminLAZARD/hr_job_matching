@@ -91,6 +91,10 @@ Since this is a POC and I care more about showing the architecture than the actu
 ## Chronology
 
 - [x] generate 100 synthetic profile with a dedicated data/ candidate_generation.py which has a main func. Make that a click app
-- [ ] under src/embed define functions to embed candidate profiles using Qdrant with appropriate subfunctions.
-- [ ] under src/query define functions to query the database given a job description. It may involve editing src/embed to embed/adapt the job desc as well
+- [x] under src/embed define functions to embed candidate profiles using Qdrant with appropriate subfunctions.
+- [x] under src/query define functions to query the database given a job description. It may involve editing src/embed to embed/adapt the job desc as well
 - [ ] create the fastapi endpoints with proper CRUD validation
+
+## Choices
+
+Doing things great is actually quite time-consuming. The structure of the code is very primitive.It woudl gain to be more organized and sorted out.

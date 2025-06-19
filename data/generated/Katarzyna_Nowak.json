@@ -1,0 +1,58 @@
+{
+    "first_name": "Katarzyna",
+    "last_name": "Nowak",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "katarzyna.nowak@example.com",
+    "phone": "+447700900000",
+    "address": "74 High Street, London, UK",
+    "skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Microservices",
+        "REST APIs",
+        "Git",
+        "CI/CD"
+    ],
+    "experiences": [
+        {
+            "company": "SoftCode Solutions",
+            "role": "Junior Software Developer",
+            "start_date": "2014-09-01",
+            "end_date": "2016-06-30",
+            "description": "Developed and maintained web applications using Java and SQL. Contributed to the design and implementation of new features. Worked closely with senior developers to learn best practices in software development."
+        },
+        {
+            "company": "GlobalTech Industries",
+            "role": "Software Engineer",
+            "start_date": "2016-07-15",
+            "end_date": "2019-12-20",
+            "description": "Developed and deployed backend microservices for a cloud-based platform using Python and AWS. Optimized database performance and ensured system scalability. Collaborated with front-end developers to integrate user interfaces. Implemented CI/CD pipelines using Jenkins."
+        },
+        {
+            "company": "DataWise Analytics",
+            "role": "Senior Software Engineer",
+            "start_date": "2020-01-05",
+            "end_date": "2023-10-26",
+            "description": "Led the development of new features for the company's flagship data analytics platform. Designed and implemented a new microservice architecture for improved scalability and performance. Mentored junior developers and provided technical guidance. Worked with Docker and Kubernetes to containerize and orchestrate microservices. Focused on improving code quality and ensuring adherence to best practices."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Specialized in software engineering and database systems. Completed a thesis on distributed database management."
+        },
+        {
+            "institution": "Politecnico di Milano",
+            "degree": "Erasmus Exchange Program",
+            "year_of_graduation": 2013,
+            "description": "Studied advanced algorithms and data structures as part of an Erasmus exchange program."
+        }
+    ]
+}

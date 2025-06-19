@@ -1,0 +1,58 @@
+{
+    "first_name": "Aleksander",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "aleksander.kowalski@example.com",
+    "phone": "+48123456789",
+    "address": "ul. Krakowska 25, 30-001 Krakow, Poland",
+    "skills": [
+        "Python",
+        "SQL",
+        "Data Analysis",
+        "Machine Learning",
+        "Cloud Computing (AWS, Azure)",
+        "Data Visualization (Tableau, Power BI)",
+        "ETL Processes",
+        "Data Warehousing",
+        "Spark",
+        "Hadoop"
+    ],
+    "experiences": [
+        {
+            "company": "FutureTech Solutions S.A.",
+            "role": "Data Engineer",
+            "start_date": "2016-06-01",
+            "end_date": "2020-12-31",
+            "description": "Developed and maintained ETL pipelines for ingesting data from various sources into the data warehouse. Designed and implemented data models for analytical reporting. Optimized data warehouse performance through query tuning and indexing. Collaborated with data scientists to build machine learning models. Technologies used: Python, SQL, AWS (S3, EC2, Redshift), Spark, Hadoop."
+        },
+        {
+            "company": "Global Analytics Group",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-01-01",
+            "end_date": "2023-10-31",
+            "description": "Led the design and implementation of a cloud-based data platform on Azure. Developed data pipelines using Azure Data Factory and Azure Databricks. Implemented data governance and security policies. Mentored junior data engineers. Worked with large datasets to extract insights for business decision-making. Proficient in: Python, SQL, Azure (Data Factory, Databricks, Synapse), Data Visualization Tools (Tableau), Machine Learning."
+        },
+        {
+            "company": "Innovatech Sp. z o.o.",
+            "role": "Lead Data Architect",
+            "start_date": "2023-11-01",
+            "end_date": null,
+            "description": "Responsible for defining the overall data architecture strategy for the company. Lead a team of data engineers in building and maintaining a scalable and reliable data platform. Define data governance policies and ensure compliance with data privacy regulations. Evaluate and select new data technologies. Technologies: AWS, Azure, Python, Spark, Kafka, Cassandra, Snowflake"
+        }
+    ],
+    "education": [
+        {
+            "institution": "AGH University of Science and Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2015,
+            "description": "Specialized in data mining and machine learning. Thesis focused on developing a novel algorithm for anomaly detection in time series data. Relevant coursework included: data structures and algorithms, database systems, artificial intelligence, and statistical modeling."
+        },
+        {
+            "institution": "Stanford University (Online)",
+            "degree": "Machine Learning Specialization",
+            "year_of_graduation": 2019,
+            "description": "Completed a series of online courses focused on machine learning techniques, including supervised learning, unsupervised learning, and deep learning. Gained hands-on experience with popular machine learning libraries such as scikit-learn and TensorFlow."
+        }
+    ]
+}

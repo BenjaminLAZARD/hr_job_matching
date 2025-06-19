@@ -1,0 +1,58 @@
+{
+    "first_name": "Irina",
+    "last_name": "Novak",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "irina.novak@email.com",
+    "phone": "+48123456789",
+    "address": "ul. Krakowska 25, 00-001 Warszawa, Poland",
+    "skills": [
+        "Python",
+        "Machine Learning",
+        "Data Analysis",
+        "SQL",
+        "TensorFlow",
+        "PyTorch",
+        "Cloud Computing (AWS, Azure)",
+        "Data Visualization (Tableau, Power BI)",
+        "Statistical Modeling",
+        "A/B Testing"
+    ],
+    "experiences": [
+        {
+            "company": "CyberSolutions Poland",
+            "role": "Data Scientist",
+            "start_date": "2015-07-01",
+            "end_date": "2018-12-31",
+            "description": "Developed and deployed machine learning models for fraud detection and risk assessment. Implemented data pipelines for extracting, transforming, and loading data from various sources. Collaborated with business stakeholders to identify opportunities for data-driven decision making. Used Python, SQL, and AWS technologies."
+        },
+        {
+            "company": "InnoVision Technologies",
+            "role": "Senior Data Scientist",
+            "start_date": "2019-01-01",
+            "end_date": "2022-06-30",
+            "description": "Led a team of data scientists in building predictive models for customer churn and lifetime value. Conducted A/B tests to optimize marketing campaigns and product features. Presented findings and recommendations to senior management. Mentored junior data scientists. Primarily worked with Python, PyTorch, and cloud-based infrastructure."
+        },
+        {
+            "company": "GlobalTech Dynamics",
+            "role": "Lead Data Scientist",
+            "start_date": "2022-07-01",
+            "end_date": null,
+            "description": "Currently leading the data science efforts for a global technology company. Responsible for developing and implementing machine learning strategies to improve product performance and user experience. Building and managing a team of data scientists across different geographical locations. Working with large datasets and cutting-edge technologies, including deep learning and natural language processing."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Warsaw",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2015,
+            "description": "Specialized in machine learning and data mining. Completed a thesis on the application of deep learning to image recognition."
+        },
+        {
+            "institution": "AGH University of Science and Technology",
+            "degree": "B.Sc. in Mathematics",
+            "year_of_graduation": 2013,
+            "description": "Focused on mathematical modeling and statistical analysis. Developed a strong foundation in quantitative methods."
+        }
+    ]
+}

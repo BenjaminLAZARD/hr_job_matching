@@ -1,0 +1,56 @@
+{
+    "first_name": "Jian",
+    "last_name": "Zhang",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "jian.zhang@email.com",
+    "phone": "+8613800000000",
+    "address": "No. 1 Tsinghua Yuan, Haidian District, Beijing, China",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Warehousing",
+        "ETL",
+        "Data Modeling"
+    ],
+    "experiences": [
+        {
+            "company": "ByteDance",
+            "role": "Data Engineer",
+            "start_date": "2018-07-01",
+            "end_date": "2020-12-31",
+            "description": "Developed and maintained large-scale data pipelines using Spark and Hadoop. Implemented data quality checks and monitoring systems. Contributed to the design and development of a new data warehouse. Worked with petabytes of data and ensured its availability for analytical and operational use cases. Technologies used: Python, Spark, Hadoop, Hive, AWS (S3, EC2, EMR)."
+        },
+        {
+            "company": "Quantexa Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2021-01-01",
+            "end_date": "2022-06-30",
+            "description": "Led the design and implementation of ETL processes for integrating data from various sources. Mentored junior data engineers and provided technical guidance. Optimized data pipelines for performance and scalability. Developed and maintained data models for various business domains. Technologies used: Python, SQL, Kafka, AWS (Redshift, Glue, Lambda)."
+        },
+        {
+            "company": "DataRise Solutions",
+            "role": "Lead Data Engineer",
+            "start_date": "2022-07-01",
+            "end_date": "2023-12-31",
+            "description": "Managed a team of data engineers responsible for building and maintaining data infrastructure. Developed and implemented data governance policies. Collaborated with cross-functional teams to define data requirements and solutions. Technologies used: Python, Spark, Databricks, Azure (Synapse Analytics, Data Factory, Databricks)."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tsinghua University, Beijing",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Graduated with honors. Focused on algorithms and data structures. Completed a thesis on distributed computing."
+        },
+        {
+            "institution": "University of California, Berkeley",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Specialized in data science and machine learning. Completed a thesis on deep learning for natural language processing. GPA: 3.9/4.0."
+        }
+    ]
+}

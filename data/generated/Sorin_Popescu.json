@@ -1,0 +1,58 @@
+{
+    "first_name": "Sorin",
+    "last_name": "Popescu",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "sorin.popescu@example.com",
+    "phone": "+40722000111",
+    "address": "Str. Mihai Eminescu 123, Bucharest, Romania",
+    "skills": [
+        "Java",
+        "Spring Boot",
+        "Kafka",
+        "Docker",
+        "Kubernetes",
+        "SQL",
+        "PostgreSQL",
+        "Git",
+        "AWS",
+        "REST APIs"
+    ],
+    "experiences": [
+        {
+            "company": "TechSolutions Global (Bucharest office)",
+            "role": "Software Engineer",
+            "start_date": "2015-07-01",
+            "end_date": "2019-12-31",
+            "description": "Developed and maintained core backend systems for a SaaS product. Collaborated with product and QA to implement new features and address performance bottlenecks. Participated in code reviews and contributed to improving code quality. Worked primarily with Java, Spring Boot, and PostgreSQL."
+        },
+        {
+            "company": "QuantumLeap Technologies",
+            "role": "Senior Software Engineer",
+            "start_date": "2020-01-01",
+            "end_date": "2022-06-30",
+            "description": "Led the development of a new microservice architecture for processing large volumes of data using Kafka and Kubernetes. Mentored junior developers and promoted best practices for software development. Improved system performance by 30% through code optimization and infrastructure improvements."
+        },
+        {
+            "company": "InnovateSoft Romania",
+            "role": "Principal Software Engineer",
+            "start_date": "2022-07-01",
+            "end_date": "2023-12-31",
+            "description": "Designed and implemented scalable and resilient cloud-based solutions using AWS.  Focused on improving the CI/CD pipeline and automating infrastructure deployment using Terraform.  Worked closely with the DevOps team to ensure seamless deployments and monitor system performance. Helped the company migrate to cloud infrastructure."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University Politehnica of Bucharest",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2011,
+            "description": "Focused on algorithms, data structures, and software engineering principles. Completed a senior project involving the development of a web application using Java and Spring."
+        },
+        {
+            "institution": "University Politehnica of Bucharest",
+            "degree": "M.Sc. in Software Engineering",
+            "year_of_graduation": 2013,
+            "description": "Specialized in distributed systems and cloud computing.  Completed a master's thesis on the performance analysis of different message queue technologies."
+        }
+    ]
+}

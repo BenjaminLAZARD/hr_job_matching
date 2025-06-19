@@ -1,0 +1,59 @@
+{
+    "first_name": "Kira",
+    "last_name": "Nowak",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "kira.nowak@example.com",
+    "phone": "+48123456789",
+    "address": "ul. Marszałkowska 10, 00-001 Warszawa, Poland",
+    "skills": [
+        "Product Management",
+        "Agile",
+        "Scrum",
+        "Market Analysis",
+        "User Research",
+        "Stakeholder Management",
+        "Roadmap Planning",
+        "Competitive Analysis",
+        "Data Analysis",
+        "Jira",
+        "Confluence"
+    ],
+    "experiences": [
+        {
+            "company": "Tech Solutions Polska",
+            "role": "Junior Product Manager",
+            "start_date": "2015-07-01",
+            "end_date": "2017-12-31",
+            "description": "Supported the product management team in defining and executing product strategy for a suite of B2B software solutions. Conducted market research, analyzed user feedback, and assisted in the development of product roadmaps. Managed backlog prioritization and collaborated with engineering and design teams to ensure timely delivery of high-quality products. Gained experience with Agile methodologies and product lifecycle management."
+        },
+        {
+            "company": "Summit Analytics",
+            "role": "Product Manager",
+            "start_date": "2018-01-01",
+            "end_date": "2021-12-31",
+            "description": "Led the product development of a cloud-based analytics platform for financial institutions. Defined product vision, strategy, and roadmap based on market research, customer feedback, and competitive analysis. Managed cross-functional teams including engineering, design, and marketing to deliver innovative solutions that met customer needs. Improved user engagement by 30% through data-driven product enhancements. Utilized tools such as Jira and Confluence to manage projects."
+        },
+        {
+            "company": "Globex Digital",
+            "role": "Product Manager",
+            "start_date": "2022-01-01",
+            "end_date": "2023-10-27",
+            "description": "Currently leading the product strategy and roadmap for a new AI-powered marketing tool. Responsible for gathering user feedback, analyzing market trends, and collaborating with engineering and design teams to develop and launch new features. Overseeing the entire product lifecycle from ideation to launch and iteration. Working to improve marketing efficiency and effectiveness using cutting edge AI technology. Implemented A/B testing to optimize product features."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Focused on data mining and machine learning. Thesis: \"Advanced Algorithms for Predictive Analytics\"."
+        },
+        {
+            "institution": "University of Warsaw",
+            "degree": "Minor in Business Administration",
+            "year_of_graduation": 2014,
+            "description": "Completed coursework in finance, marketing, and management. Developed a strong understanding of business principles and practices."
+        }
+    ]
+}

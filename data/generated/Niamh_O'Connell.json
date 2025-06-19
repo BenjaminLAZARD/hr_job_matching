@@ -1,0 +1,55 @@
+{
+    "first_name": "Niamh",
+    "last_name": "O'Connell",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "niamh.oconnell@example.com",
+    "phone": "+353871234567",
+    "address": "42 Willow Lane, Dublin, Ireland",
+    "skills": [
+        "Product Management",
+        "Agile Methodologies",
+        "Cloud Computing",
+        "Market Analysis",
+        "Strategic Planning",
+        "JIRA",
+        "Confluence"
+    ],
+    "experiences": [
+        {
+            "company": "Keltic Innovations",
+            "role": "Product Manager",
+            "start_date": "2021-01-15",
+            "end_date": null,
+            "description": "Define and execute the product strategy and roadmap for a suite of cloud-based marketing tools. Collaborate with engineering, design, and marketing teams to deliver innovative features and enhance user experience. Responsible for gathering and prioritizing product and customer requirements through market research, competitive analysis, and customer feedback."
+        },
+        {
+            "company": "Nova Dynamics Inc.",
+            "role": "Senior Business Analyst",
+            "start_date": "2017-08-01",
+            "end_date": "2020-12-20",
+            "description": "Led cross-functional teams in the analysis of business requirements and the development of technical solutions for a large-scale CRM implementation. Created detailed documentation, including user stories, use cases, and process flows. Managed stakeholder expectations and ensured alignment with project goals. Worked in San Francisco, USA."
+        },
+        {
+            "company": "TechGlobal Solutions",
+            "role": "Junior Business Analyst",
+            "start_date": "2015-06-01",
+            "end_date": "2017-07-31",
+            "description": "Supported senior analysts in the gathering and analysis of business requirements for various IT projects. Assisted in the creation of documentation and the development of training materials. Gained experience in Agile methodologies and project management techniques. Based in Dublin, Ireland."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Trinity College Dublin",
+            "degree": "M.Sc. in Business Analytics",
+            "year_of_graduation": 2015,
+            "description": "Focused on statistical modeling, data mining, and business intelligence techniques. Conducted research on the application of machine learning to customer churn prediction."
+        },
+        {
+            "institution": "University College Cork",
+            "degree": "B.Sc. in Economics",
+            "year_of_graduation": 2013,
+            "description": "Completed coursework in microeconomics, macroeconomics, econometrics, and financial accounting. Participated in extracurricular activities, including the Economics Society and the Debating Union."
+        }
+    ]
+}

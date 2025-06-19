@@ -1,0 +1,58 @@
+{
+    "first_name": "Renata",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "renata.kowalski@example.com",
+    "phone": "+48123456789",
+    "address": "ul. Marszałkowska 10, 00-001 Warszawa, Poland",
+    "skills": [
+        "Product Management",
+        "Agile Methodologies",
+        "Scrum",
+        "JIRA",
+        "Confluence",
+        "User Research",
+        "Data Analysis",
+        "A/B Testing",
+        "Product Roadmap Development",
+        "Stakeholder Management"
+    ],
+    "experiences": [
+        {
+            "company": "NovaTech Solutions",
+            "role": "Product Manager",
+            "start_date": "2021-07-01",
+            "end_date": null,
+            "description": "Leading the product discovery and strategy for the mobile app, ensuring alignment with the company's vision. Managing the product roadmap, prioritizing features based on customer feedback and market analysis. Collaborating with engineering, design, and marketing teams to deliver a user-centric product experience. Spearheading user research initiatives, conducting interviews, and analyzing user data to identify pain points and opportunities for improvement. Implemented A/B testing strategies to optimize key product metrics."
+        },
+        {
+            "company": "Global Dynamics Group",
+            "role": "Associate Product Manager",
+            "start_date": "2019-01-15",
+            "end_date": "2021-06-30",
+            "description": "Assisted in the development and execution of product strategies. Conducted market research and competitive analysis to identify trends and opportunities. Supported the product team in managing the product backlog and prioritizing features. Collaborated with engineering and design teams to ensure the successful delivery of product releases."
+        },
+        {
+            "company": "Polaris Software",
+            "role": "Business Analyst",
+            "start_date": "2016-09-01",
+            "end_date": "2018-12-31",
+            "description": "Gathered and analyzed business requirements for software development projects. Created user stories and use cases to document functional requirements. Worked closely with stakeholders to ensure alignment between business needs and technical solutions. Supported the testing and deployment of software applications."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in Software Engineering. Completed a thesis on \"Advanced Algorithms for Data Mining.\" Maintained a GPA of 4.8/5.0."
+        },
+        {
+            "institution": "University of Warsaw",
+            "degree": "B.A. in Economics",
+            "year_of_graduation": 2014,
+            "description": "Focused on microeconomics and econometrics. Participated in the University Economics Club. Graduated with honors."
+        }
+    ]
+}

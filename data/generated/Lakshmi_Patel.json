@@ -1,0 +1,56 @@
+{
+    "first_name": "Lakshmi",
+    "last_name": "Patel",
+    "birthdate": "1992-05-10",
+    "age": 31,
+    "email": "lakshmi.patel@example.com",
+    "phone": "+919876543210",
+    "address": "45, 2nd Cross, MG Road, Bangalore, India",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Warehousing",
+        "ETL Processes",
+        "Data Modeling"
+    ],
+    "experiences": [
+        {
+            "company": "GlobalTech Solutions",
+            "role": "Data Engineer",
+            "start_date": "2016-07-01",
+            "end_date": "2019-06-30",
+            "description": "Designed and implemented ETL pipelines for processing large datasets from various sources. Developed and maintained data warehouses using AWS Redshift. Automated data processing tasks using Python and Spark. Monitored system performance and implemented optimizations to improve efficiency."
+        },
+        {
+            "company": "Innovate Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-07-01",
+            "end_date": "2023-08-31",
+            "description": "Led the development of a new data platform based on Hadoop and Spark. Managed a team of data engineers and provided technical guidance. Designed and implemented data governance policies. Collaborated with data scientists to build machine learning models."
+        },
+        {
+            "company": "Acme Corp",
+            "role": "Lead Data Engineer",
+            "start_date": "2023-09-01",
+            "end_date": null,
+            "description": "Leading a team of data engineers in building and maintaining a scalable and reliable data infrastructure. Responsible for designing and implementing data solutions to support various business needs. Mentoring junior data engineers and promoting best practices."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Indian Institute of Technology Delhi",
+            "degree": "B.Tech. in Computer Science",
+            "year_of_graduation": 2015,
+            "description": "Graduated with honors. Focused on data structures, algorithms, and database systems. Actively participated in coding competitions and hackathons."
+        },
+        {
+            "institution": "University of Michigan",
+            "degree": "M.S. in Data Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in machine learning and data mining. Completed a thesis on anomaly detection in time series data. Gained experience with various statistical modeling techniques."
+        }
+    ]
+}

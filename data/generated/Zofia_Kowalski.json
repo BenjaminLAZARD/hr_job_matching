@@ -1,0 +1,55 @@
+{
+    "first_name": "Zofia",
+    "last_name": "Kowalski",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "zofia.kowalski@example.com",
+    "phone": "+48123456789",
+    "address": "Krakowska 10, Krakow, Poland",
+    "skills": [
+        "Financial Modeling",
+        "Data Analysis",
+        "Forecasting",
+        "Financial Reporting",
+        "Python",
+        "Excel",
+        "SQL"
+    ],
+    "experiences": [
+        {
+            "company": "Solid Solutions Corp.",
+            "role": "Junior Financial Analyst",
+            "start_date": "2014-06-01",
+            "end_date": "2016-12-31",
+            "description": "Assisted senior analysts in preparing financial reports, conducted preliminary data analysis, and supported the development of financial models. Gained experience in using Excel for financial analysis and reporting. Located in Warsaw, Poland."
+        },
+        {
+            "company": "Quantum Leap Technologies",
+            "role": "Financial Analyst",
+            "start_date": "2017-01-01",
+            "end_date": "2020-12-31",
+            "description": "Developed financial models to support investment decisions, conducted in-depth financial analysis to identify trends and risks, and prepared presentations for management and stakeholders. Improved forecasting accuracy by 15% using statistical methods. Located in Gdansk, Poland."
+        },
+        {
+            "company": "Zenith Global Investments",
+            "role": "Senior Financial Analyst",
+            "start_date": "2021-01-01",
+            "end_date": null,
+            "description": "Lead financial analysis projects, mentor junior analysts, and provide strategic recommendations to senior management. Developed and implemented new financial reporting processes that improved efficiency by 20%. Currently working on developing new investment strategies. Located in Krakow, Poland."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw School of Economics",
+            "degree": "B.Sc. in Finance and Accounting",
+            "year_of_graduation": 2012,
+            "description": "Majored in Finance and Accounting with a focus on financial modeling and data analysis. Completed coursework in corporate finance, investment management, and financial reporting."
+        },
+        {
+            "institution": "University of Gdańsk",
+            "degree": "M.Sc. in Economics",
+            "year_of_graduation": 2014,
+            "description": "Specialized in econometrics and statistical analysis. Conducted research on financial market trends and developed econometric models to forecast economic indicators."
+        }
+    ]
+}

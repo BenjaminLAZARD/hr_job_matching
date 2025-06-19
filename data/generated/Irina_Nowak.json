@@ -1,0 +1,56 @@
+{
+    "first_name": "Irina",
+    "last_name": "Nowak",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "irina.nowak@email.com",
+    "phone": "+48500600700",
+    "address": "ul. Marszalkowska 10, 00-001 Warszawa, Poland",
+    "skills": [
+        "Financial Modeling",
+        "Data Analysis",
+        "Budgeting",
+        "Forecasting",
+        "Financial Reporting",
+        "SAP",
+        "Excel",
+        "SQL"
+    ],
+    "experiences": [
+        {
+            "company": "Polski Naftowy SA",
+            "role": "Financial Analyst",
+            "start_date": "2016-07-01",
+            "end_date": "2020-12-31",
+            "description": "Analyzed financial performance of various business units within the company. Prepared monthly and quarterly financial reports, identifying key trends and variances. Developed and maintained financial models for forecasting and budgeting. Supported strategic decision-making by providing financial insights and recommendations. Collaborated with cross-functional teams to improve financial processes and controls."
+        },
+        {
+            "company": "Europabank",
+            "role": "Senior Financial Analyst",
+            "start_date": "2021-01-01",
+            "end_date": "2022-12-31",
+            "description": "Led the financial analysis team responsible for preparing the annual budget and long-range financial plans. Managed the monthly forecasting process and provided detailed variance analysis. Developed complex financial models to evaluate investment opportunities and assess risk. Presented financial results and recommendations to senior management. Mentored junior analysts."
+        },
+        {
+            "company": "NovaTech Solutions",
+            "role": "Finance Manager",
+            "start_date": "2023-01-01",
+            "end_date": null,
+            "description": "Responsible for all aspects of financial management, including budgeting, forecasting, financial reporting, and internal controls. Developed and implemented financial policies and procedures. Managed a team of financial analysts. Provided financial support to the executive team on strategic initiatives. Oversaw the preparation of the annual audit."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw School of Economics",
+            "degree": "M.Sc. in Finance and Accounting",
+            "year_of_graduation": 2016,
+            "description": "Master's thesis focused on the impact of financial regulations on investment decisions."
+        },
+        {
+            "institution": "University of Warsaw",
+            "degree": "B.A. in Economics",
+            "year_of_graduation": 2014,
+            "description": "Completed coursework in microeconomics, macroeconomics, econometrics, and statistics."
+        }
+    ]
+}

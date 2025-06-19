@@ -1,0 +1,50 @@
+{
+    "first_name": "Ingrid",
+    "last_name": "Nowak",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "ingrid.nowak@email.com",
+    "phone": "+48123456789",
+    "address": "Krakowska 25, Warsaw, Poland",
+    "skills": [
+        "Financial Analysis",
+        "Budgeting",
+        "Forecasting",
+        "Regulatory Compliance",
+        "Data Analysis",
+        "Report Preparation",
+        "Excel",
+        "SQL",
+        "SAP"
+    ],
+    "experiences": [
+        {
+            "company": "SolarisForge Solutions",
+            "role": "Financial Analyst",
+            "start_date": "2015-06-01",
+            "end_date": "2019-08-31",
+            "description": "Analyzed financial data, prepared reports on financial performance, and identified areas for cost savings. Assisted with the preparation of the company's annual budget and financial forecasts. Ensured compliance with regulatory requirements. Developed and implemented improved financial reporting processes, resulting in a 15% reduction in reporting time."
+        },
+        {
+            "company": "NovaTech Dynamics",
+            "role": "Senior Financial Analyst",
+            "start_date": "2019-09-01",
+            "end_date": null,
+            "description": "Lead financial analyst responsible for overseeing the financial reporting and analysis functions. Managed a team of junior analysts. Developed and maintained financial models to support strategic decision-making. Presented financial reports to senior management and board members. Implemented a new budgeting system that improved budget accuracy by 20%."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Warsaw",
+            "degree": "B.A. in Economics",
+            "year_of_graduation": 2011,
+            "description": "Majored in Economics with a focus on financial modeling and econometrics. Completed a thesis on the impact of globalization on the Polish economy."
+        },
+        {
+            "institution": "Warsaw School of Economics",
+            "degree": "M.Sc. in Finance and Accounting",
+            "year_of_graduation": 2013,
+            "description": "Specialized in Corporate Finance and Accounting. Completed advanced coursework in financial analysis, investment management, and risk management. Graduated with honors."
+        }
+    ]
+}

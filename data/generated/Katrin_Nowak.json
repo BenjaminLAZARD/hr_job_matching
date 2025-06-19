@@ -1,0 +1,61 @@
+{
+    "first_name": "Katrin",
+    "last_name": "Nowak",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "katrin.nowak@email.com",
+    "phone": "+48123456789",
+    "address": "ul. Warszawska 10, 00-001 Warszawa, Poland",
+    "skills": [
+        "Java",
+        "Kotlin",
+        "Android SDK",
+        "SQL",
+        "Git",
+        "Agile Development",
+        "REST APIs",
+        "JSON",
+        "XML",
+        "Unit Testing",
+        "UI Testing",
+        "Mobile App Development",
+        "Problem Solving"
+    ],
+    "experiences": [
+        {
+            "company": "CyberBank S.A.",
+            "role": "Mobile Application Developer",
+            "start_date": "2021-01-01",
+            "end_date": "2023-12-31",
+            "description": "Developed and maintained key features for CyberBank's mobile banking application. Collaborated with product managers and UX designers to define and implement new functionalities. Wrote clean, efficient, and well-documented code. Conducted code reviews and mentored junior developers. Implemented robust unit and UI tests to ensure application stability."
+        },
+        {
+            "company": "NovaTech Solutions",
+            "role": "Software Engineer",
+            "start_date": "2018-06-01",
+            "end_date": "2020-12-31",
+            "description": "Designed, developed, and tested software components for various projects. Worked with Java, Spring Framework, and SQL databases. Participated in all phases of the software development lifecycle, from requirements gathering to deployment. Contributed to improving the team's development processes and best practices. Implemented RESTful APIs for integration with other systems."
+        },
+        {
+            "company": "PolCode Technologies",
+            "role": "Junior Software Developer",
+            "start_date": "2016-09-01",
+            "end_date": "2018-05-31",
+            "description": "Assisted senior developers in building and maintaining web applications. Gained experience in various technologies, including Java, JavaScript, and HTML. Wrote unit tests and participated in code reviews. Contributed to the development of a new e-commerce platform. Worked with Agile methodologies and collaborated with cross-functional teams."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in software engineering and database systems. Completed a master's thesis on \"Scalable data processing in cloud environments\". Maintained a GPA of 4.5/5. Active member of the student programming club."
+        },
+        {
+            "institution": "University of Warsaw",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Focused on fundamental concepts of computer science and software development. Took courses in data structures, algorithms, operating systems, and programming languages. Participated in several programming competitions and hackathons. Developed a strong foundation in problem-solving and analytical thinking."
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "first_name": "Fatima",
+    "last_name": "Rodriguez",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "fatima.rodriguez@example.com",
+    "phone": "+34612345678",
+    "address": "Calle Gran Vía, 28, Madrid, Spain",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "Data Warehousing",
+        "ETL",
+        "Data Modeling",
+        "AWS",
+        "Azure",
+        "Dataiku",
+        "Kafka",
+        "Airflow"
+    ],
+    "experiences": [
+        {
+            "company": "Soluciones Digitales Globales (SDG)",
+            "role": "Data Engineer",
+            "start_date": "2016-06-01",
+            "end_date": "2019-05-31",
+            "description": "Developed and maintained ETL pipelines using Python and Apache Spark to process large datasets from various sources. Implemented data quality checks and monitoring systems. Contributed to the design of a new data warehouse on AWS Redshift."
+        },
+        {
+            "company": "Quantexa Analytics",
+            "role": "Senior Data Engineer",
+            "start_date": "2019-06-01",
+            "end_date": "2022-08-31",
+            "description": "Led a team of data engineers in building and scaling data pipelines for a real-time fraud detection platform. Used Kafka for streaming data ingestion and implemented data transformations using Apache Flink.  Managed the deployment and maintenance of data infrastructure on Azure."
+        },
+        {
+            "company": "Everbloom Tech",
+            "role": "Principal Data Engineer",
+            "start_date": "2022-09-01",
+            "end_date": null,
+            "description": "Architecting and implementing a new data lake solution using Databricks and Delta Lake. Developing data governance policies and ensuring compliance with data privacy regulations.  Mentoring junior data engineers and leading technical training sessions. Implementing CI/CD pipelines for data infrastructure deployments."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Politécnica de Madrid",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Focused on data structures, algorithms, and database management systems.  Participated in a research project on data mining and machine learning."
+        },
+        {
+            "institution": "University of Deusto",
+            "degree": "M.Sc. in Data Science",
+            "year_of_graduation": 2014,
+            "description": "Specialized in big data analytics and distributed computing. Completed a thesis on the application of deep learning to natural language processing."
+        }
+    ]
+}

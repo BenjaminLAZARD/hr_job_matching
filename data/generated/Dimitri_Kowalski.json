@@ -1,0 +1,58 @@
+{
+    "first_name": "Dimitri",
+    "last_name": "Kowalski",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "dimitri.kowalski@example.com",
+    "phone": "+48123456789",
+    "address": "ul. Krakowska 26, 30-001 Krakow, Poland",
+    "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "Git",
+        "Agile",
+        "REST APIs",
+        "GraphQL",
+        "TypeScript"
+    ],
+    "experiences": [
+        {
+            "company": "Cyberdyne Systems (Warsaw Office)",
+            "role": "Junior Frontend Developer",
+            "start_date": "2014-07-01",
+            "end_date": "2016-06-30",
+            "description": "Developed and maintained user interfaces for internal tools using JavaScript, HTML, and CSS. Implemented responsive designs and optimized website performance. Contributed to code reviews and collaborated with senior developers on new feature development. Worked with legacy systems and modernized components using React."
+        },
+        {
+            "company": "Quantum Leap Technologies (Remote)",
+            "role": "Frontend Engineer",
+            "start_date": "2016-07-01",
+            "end_date": "2019-12-31",
+            "description": "Worked remotely on a distributed team to build and maintain a complex web application using React, Redux, and GraphQL. Implemented new features, fixed bugs, and improved the overall user experience.  Participated in architectural discussions and helped to define best practices for frontend development. Refactored legacy code and improved the test coverage."
+        },
+        {
+            "company": "Nova Solutions (Cracow HQ)",
+            "role": "Senior Frontend Engineer",
+            "start_date": "2020-01-01",
+            "end_date": "2023-10-26",
+            "description": "Led the frontend development efforts for a new product launch.  Responsible for designing and implementing the user interface, ensuring a high-quality user experience. Mentored junior developers and provided technical guidance.  Worked closely with product managers and designers to define requirements and create prototypes. Championed the adoption of TypeScript and other modern frontend technologies."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Focused on software engineering principles, data structures, and algorithms.  Completed a thesis on distributed systems. Participated in extracurricular activities, including coding competitions and hackathons."
+        },
+        {
+            "institution": "AGH University of Science and Technology",
+            "degree": "M.Sc. in Software Engineering",
+            "year_of_graduation": 2016,
+            "description": "Specialized in advanced software development techniques, including design patterns, object-oriented programming, and software testing.  Conducted research on the performance optimization of web applications.  Presented research findings at academic conferences."
+        }
+    ]
+}

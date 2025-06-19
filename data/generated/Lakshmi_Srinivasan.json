@@ -1,0 +1,65 @@
+{
+    "first_name": "Lakshmi",
+    "last_name": "Srinivasan",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "lakshmi.srinivasan@example.com",
+    "phone": "+919876543210",
+    "address": "456 Cross Rd, Bangalore, India",
+    "skills": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Data Warehousing",
+        "ETL",
+        "Data Modeling",
+        "Airflow",
+        "Kafka"
+    ],
+    "experiences": [
+        {
+            "company": "DataWeave Solutions",
+            "role": "Data Engineer",
+            "start_date": "2013-07-01",
+            "end_date": "2016-12-31",
+            "description": "Developed and maintained ETL pipelines for ingesting data from various sources into the data warehouse. Implemented data quality checks and monitoring systems. Contributed to the design and development of new data models."
+        },
+        {
+            "company": "InnovAI Technologies",
+            "role": "Senior Data Engineer",
+            "start_date": "2017-01-01",
+            "end_date": "2020-06-30",
+            "description": "Led the design and implementation of a cloud-based data platform on AWS using Spark, Hadoop, and Kafka. Managed a team of data engineers and provided technical guidance. Responsible for data security and compliance."
+        },
+        {
+            "company": "Globex Corp",
+            "role": "Principal Data Engineer",
+            "start_date": "2020-07-01",
+            "end_date": "2023-12-31",
+            "description": "Architected and built a real-time data pipeline for fraud detection using Kafka and Flink. Collaborated with data scientists to develop and deploy machine learning models. Mentored junior engineers and contributed to the development of best practices."
+        },
+        {
+            "company": "Globex Corp",
+            "role": "Data Engineering Manager",
+            "start_date": "2024-01-01",
+            "end_date": "Present",
+            "description": "Managed a team of 10+ data engineers, providing technical leadership and guidance on best practices. Oversaw the design, development, and maintenance of data pipelines and infrastructure supporting critical business functions, including analytics and machine learning.  Focused on improving data quality, reliability, and scalability of the data platform.  Collaborated with stakeholders across the organization to understand data needs and deliver effective solutions."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Indian Institute of Technology (IIT) Madras",
+            "degree": "B.Tech. in Computer Science and Engineering",
+            "year_of_graduation": 2012,
+            "description": "Graduated with honors.  Focused on database systems, algorithms, and software engineering.  Participated in several competitive programming contests."
+        },
+        {
+            "institution": "University of California, Berkeley",
+            "degree": "M.S. in Data Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in large-scale data processing and machine learning.  Conducted research on distributed data management and published a paper on data lineage."
+        }
+    ]
+}

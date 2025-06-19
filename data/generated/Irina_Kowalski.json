@@ -1,0 +1,60 @@
+{
+    "first_name": "Irina",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "irina.kowalski@email.com",
+    "phone": "+48123456789",
+    "address": "ul. Krakowska 25, 00-001 Warszawa, Poland",
+    "skills": [
+        "Java",
+        "Python",
+        "SQL",
+        "Spring Boot",
+        "REST APIs",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Microservices",
+        "Git",
+        "Agile Methodologies",
+        "Kafka"
+    ],
+    "experiences": [
+        {
+            "company": "QuantumLeap Technologies",
+            "role": "Software Engineer",
+            "start_date": "2012-06-01",
+            "end_date": "2015-12-31",
+            "description": "Developed and maintained Java-based applications for financial data processing. Implemented new features, improved performance, and resolved critical bugs. Contributed to the design and architecture of several key modules. Worked in an Agile environment with Scrum methodology."
+        },
+        {
+            "company": "NovaSolutions GmbH",
+            "role": "Senior Software Engineer",
+            "start_date": "2016-01-01",
+            "end_date": "2019-12-31",
+            "description": "Led the development of microservices for a large-scale e-commerce platform. Utilized Spring Boot, Docker, and Kubernetes to build scalable and resilient services. Designed and implemented REST APIs for communication between services. Mentored junior developers and provided technical guidance."
+        },
+        {
+            "company": "Apex Digital",
+            "role": "Principal Engineer",
+            "start_date": "2020-01-01",
+            "end_date": "2023-10-31",
+            "description": "Responsible for the architectural design and implementation of back-end systems for a high-traffic web application. Utilized AWS services such as EC2, S3, and RDS to build a highly available and scalable infrastructure. Implemented performance monitoring and alerting systems. Led a team of engineers in building and deploying new features."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Specialized in software engineering and distributed systems. Completed a thesis on the optimization of data processing algorithms. Active member of the student programming club."
+        },
+        {
+            "institution": "AGH University of Science and Technology",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2010,
+            "description": "Focused on programming languages and data structures. Participated in several research projects related to artificial intelligence. Maintained a high GPA throughout the program."
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "first_name": "Sofía",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "sofia.kowalski@email.com",
+    "phone": "+48555123456",
+    "address": "Krakowska 22, 00-001 Warszawa, Poland",
+    "skills": [
+        "Financial Modeling",
+        "Data Analysis",
+        "Forecasting",
+        "Budgeting",
+        "Financial Reporting",
+        "Excel",
+        "Python",
+        "Bloomberg Terminal"
+    ],
+    "experiences": [
+        {
+            "company": "GlobalTech Solutions (Warsaw Office)",
+            "role": "Financial Analyst",
+            "start_date": "2012-07-01",
+            "end_date": "2015-06-30",
+            "description": "Conducted financial analysis and reporting for the Polish branch of GlobalTech Solutions. Supported the budgeting process and provided insights into revenue and cost trends. Developed models to assess the profitability of new business ventures. Contributed to the preparation of quarterly and annual financial statements."
+        },
+        {
+            "company": "Apex Capital Partners (London Office)",
+            "role": "Associate, Investment Analysis",
+            "start_date": "2016-01-01",
+            "end_date": "2020-12-31",
+            "description": "Performed financial due diligence on potential investment targets. Built complex financial models to evaluate investment opportunities. Prepared investment memoranda and presentations for senior management. Assisted in the execution of M&A transactions. Analyzed industry trends and competitive landscapes."
+        },
+        {
+            "company": "Nova Dynamics (Berlin Office)",
+            "role": "Senior Financial Analyst",
+            "start_date": "2021-01-01",
+            "end_date": null,
+            "description": "Currently responsible for analyzing the financial performance of key product lines at Nova Dynamics. Develops financial models and forecasts to guide strategic decision-making. Prepares reports and presentations for senior management, highlighting key trends and opportunities. Leads cross-functional teams to improve financial processes."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Warsaw",
+            "degree": "Bachelor's in Economics",
+            "year_of_graduation": 2010,
+            "description": "Focused on macroeconomics, microeconomics, and econometrics. Completed a thesis on the impact of foreign direct investment on the Polish economy."
+        },
+        {
+            "institution": "London School of Economics",
+            "degree": "Master's in Finance",
+            "year_of_graduation": 2011,
+            "description": "Specialized in corporate finance and investment management. Participated in a research project on portfolio optimization. Graduated with honors."
+        }
+    ]
+}

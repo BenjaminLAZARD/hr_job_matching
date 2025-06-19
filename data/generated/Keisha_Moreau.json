@@ -1,0 +1,58 @@
+{
+    "first_name": "Keisha",
+    "last_name": "Moreau",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "keisha.moreau@email.com",
+    "phone": "+33612345678",
+    "address": "10 Rue de Rivoli, 75001 Paris, France",
+    "skills": [
+        "Product Strategy",
+        "Roadmap Development",
+        "User Research",
+        "Market Analysis",
+        "Agile Methodologies",
+        "JIRA",
+        "Confluence",
+        "Data Analysis",
+        "A/B Testing",
+        "Mobile Application Development"
+    ],
+    "experiences": [
+        {
+            "company": "Stellar Dynamics",
+            "role": "Product Manager",
+            "start_date": "2020-07-01",
+            "end_date": null,
+            "description": "Lead product strategy and roadmap for mobile application features, collaborating with engineering, design, and marketing teams. Define and launch new product improvements based on user feedback and market trends. Drive product innovation and growth within the application. Currently focusing on improving user onboarding and personalized recommendations."
+        },
+        {
+            "company": "NovaTech Solutions",
+            "role": "Consultant",
+            "start_date": "2017-09-01",
+            "end_date": "2020-06-30",
+            "description": "Provided consulting services to clients in various industries, focusing on process improvement and digital transformation. Conducted market research, analyzed data, and developed strategic recommendations to optimize business operations. Managed projects from initiation to completion, ensuring timely delivery and client satisfaction."
+        },
+        {
+            "company": "Aether Industries",
+            "role": "Business Analyst",
+            "start_date": "2015-01-05",
+            "end_date": "2017-08-31",
+            "description": "Analyzed business requirements and developed functional specifications for software applications. Collaborated with developers and stakeholders to ensure successful implementation. Created test plans and conducted user acceptance testing. Improved reporting processes, resulting in a 20% reduction in reporting time."
+        }
+    ],
+    "education": [
+        {
+            "institution": "École Polytechnique",
+            "degree": "Master of Science in Engineering",
+            "year_of_graduation": 2015,
+            "description": "Specialized in industrial engineering and operations research. Completed a thesis on the optimization of supply chain logistics using simulation modeling."
+        },
+        {
+            "institution": "HEC Paris",
+            "degree": "Master of Business Administration (MBA)",
+            "year_of_graduation": 2022,
+            "description": "Focused on strategy, marketing, and finance. Participated in case competitions and leadership development programs. Member of the entrepreneurship club."
+        }
+    ]
+}

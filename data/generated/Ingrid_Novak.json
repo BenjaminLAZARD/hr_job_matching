@@ -1,0 +1,58 @@
+{
+    "first_name": "Ingrid",
+    "last_name": "Novak",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "ingrid.novak@email.com",
+    "phone": "+48500600700",
+    "address": "Krakowskie Przedmieście 1, 00-000 Warszawa, Poland",
+    "skills": [
+        "Digital Marketing",
+        "SEO/SEM",
+        "Social Media Marketing",
+        "Content Marketing",
+        "Marketing Analytics",
+        "Google Analytics",
+        "Google Ads",
+        "Facebook Ads",
+        "Project Management",
+        "Team Leadership"
+    ],
+    "experiences": [
+        {
+            "company": "GlobalTech Solutions",
+            "role": "Marketing Specialist",
+            "start_date": "2015-06-01",
+            "end_date": "2017-12-31",
+            "description": "Managed social media presence and developed content marketing strategies, resulting in a 30% increase in lead generation. Conducted keyword research and implemented SEO best practices, improving website ranking and organic traffic. Collaborated with the sales team to create marketing materials aligned with sales goals."
+        },
+        {
+            "company": "Innovate Marketing Group",
+            "role": "Marketing Manager",
+            "start_date": "2018-01-01",
+            "end_date": "2020-05-31",
+            "description": "Led the development and execution of digital marketing campaigns for various clients, including startups and established businesses. Oversaw a team of marketing specialists and designers. Tracked campaign performance and provided data-driven recommendations for optimization. Managed marketing budgets and ensured campaigns were within budget."
+        },
+        {
+            "company": "Alpine Digital",
+            "role": "Senior Marketing Manager",
+            "start_date": "2020-06-01",
+            "end_date": "2023-10-27",
+            "description": "Currently leading a team of marketing professionals, focusing on developing and implementing comprehensive digital marketing strategies to achieve business objectives. Managing a significant marketing budget and responsible for ROI. Working closely with sales and product teams to align marketing efforts with product launches and sales targets. Continuously analyzing market trends and identifying opportunities for growth. \"Overseeing all aspects of digital marketing, from SEO and social media to email campaigns and online advertising.\""
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Warsaw",
+            "degree": "M.Sc. in Marketing",
+            "year_of_graduation": 2015,
+            "description": "Majored in Marketing Management with a focus on digital marketing strategies. GPA: 4.8/5.0. Thesis on the impact of social media marketing on brand loyalty."
+        },
+        {
+            "institution": "Copenhagen Business School",
+            "degree": "Exchange Program - Marketing",
+            "year_of_graduation": 2014,
+            "description": "Participated in an exchange program focusing on international marketing and consumer behavior."
+        }
+    ]
+}

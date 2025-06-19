@@ -1,0 +1,57 @@
+{
+    "first_name": "Seraphina",
+    "last_name": "Moreau",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "seraphina.moreau@email.com",
+    "phone": "+33612345678",
+    "address": "10 Rue de Rivoli, 75001 Paris, France",
+    "skills": [
+        "Product Management",
+        "Agile Methodologies",
+        "Scrum",
+        "Data Analysis",
+        "User Research",
+        "A/B Testing",
+        "Product Roadmapping",
+        "Competitive Analysis",
+        "Stakeholder Management"
+    ],
+    "experiences": [
+        {
+            "company": "CosmoTech Solutions",
+            "role": "Product Manager",
+            "start_date": "2015-07-01",
+            "end_date": "2017-06-30",
+            "description": "Managed the development and launch of a new SaaS product for supply chain optimization, resulting in a 30% increase in client retention. Conducted user research, defined product requirements, and collaborated with engineering and marketing teams. Implemented Agile methodologies to improve development efficiency."
+        },
+        {
+            "company": "QuantConnect",
+            "role": "Product Owner",
+            "start_date": "2017-07-01",
+            "end_date": "2019-12-31",
+            "description": "Led the product strategy for a suite of algorithmic trading tools. Prioritized features based on market analysis and user feedback. Worked closely with developers to deliver high-quality software releases. Improved user engagement by 20% through targeted feature enhancements and personalized onboarding experiences."
+        },
+        {
+            "company": "Globally Social",
+            "role": "Senior Product Manager",
+            "start_date": "2020-01-01",
+            "end_date": "2023-12-31",
+            "description": "Currently leading the product roadmap for a new social media platform focused on fostering authentic connections. Responsible for defining the product vision, gathering and prioritizing requirements, and working closely with engineering and design teams. Monitoring product performance, user feedback, and competitive landscape to iterate and improve the product offering."
+        }
+    ],
+    "education": [
+        {
+            "institution": "HEC Paris",
+            "degree": "Master in Management",
+            "year_of_graduation": 2015,
+            "description": "Specialized in Marketing and Innovation. Developed a strong foundation in business strategy, finance, and leadership. Participated in various case competitions and extracurricular activities."
+        },
+        {
+            "institution": "University of California, Berkeley",
+            "degree": "Exchange Program",
+            "year_of_graduation": 2014,
+            "description": "Studied Business Administration and Economics as part of an exchange program. Gained exposure to a different academic environment and culture. Developed strong analytical and problem-solving skills."
+        }
+    ]
+}

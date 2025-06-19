@@ -1,0 +1,59 @@
+{
+    "first_name": "Stefan",
+    "last_name": "Nowak",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "stefan.nowak@example.com",
+    "phone": "+48123456789",
+    "address": "ul. Kwiatowa 10, 00-001 Warszawa, Poland",
+    "skills": [
+        "Java",
+        "Spring Boot",
+        "REST APIs",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Microservices Architecture",
+        "Kafka",
+        "SQL",
+        "Python"
+    ],
+    "experiences": [
+        {
+            "company": "PolTech Solutions",
+            "role": "Junior Software Engineer",
+            "start_date": "2015-09-01",
+            "end_date": "2017-06-30",
+            "description": "Developed and maintained backend services using Java and Spring. Contributed to the design and implementation of REST APIs. Worked closely with senior engineers to improve code quality and performance."
+        },
+        {
+            "company": "CodeCrafters Inc.",
+            "role": "Software Engineer",
+            "start_date": "2017-07-01",
+            "end_date": "2020-12-31",
+            "description": "Designed, developed, and deployed microservices using Spring Boot and Docker. Implemented data pipelines using Kafka. Collaborated with frontend engineers to integrate backend services. Responsible for code reviews and mentoring junior engineers."
+        },
+        {
+            "company": "FutureForward Innovations",
+            "role": "Senior Software Engineer",
+            "start_date": "2021-01-01",
+            "end_date": "2023-10-31",
+            "description": "Led a team of engineers in the development of a new cloud-based platform. Architected and implemented key features of the platform using Kubernetes and PostgreSQL. Improved system performance and scalability through optimization of database queries and caching strategies. Responsible for technical decisions and mentoring team members. Integrated CI/CD pipelines."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2015,
+            "description": "Specialized in Software Engineering. Focused on distributed systems and algorithms. Completed a thesis on \"Performance Optimization of Distributed Databases\"."
+        },
+        {
+            "institution": "University of Warsaw",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2013,
+            "description": "Completed coursework in data structures, algorithms, and programming languages. Participated in several programming competitions."
+        }
+    ]
+}

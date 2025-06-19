@@ -1,0 +1,56 @@
+{
+    "first_name": "Ingrid",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-10",
+    "age": 35,
+    "email": "ingrid.kowalski@example.com",
+    "phone": "+48123456789",
+    "address": "Krakowska 15, 00-001 Warszawa, Poland",
+    "skills": [
+        "Product Strategy",
+        "Market Research",
+        "Agile Methodologies",
+        "Data Analysis",
+        "Project Management",
+        "Competitive Analysis",
+        "User Experience (UX)",
+        "A/B Testing"
+    ],
+    "experiences": [
+        {
+            "company": "EcoWrap Solutions",
+            "role": "Product Manager",
+            "start_date": "2021-01-01",
+            "end_date": null,
+            "description": "Responsible for defining and managing the product roadmap for a new line of sustainable packaging solutions. Conducted market research to identify customer needs and market opportunities. Collaborated with engineering and design teams to develop innovative product features. Tracked product performance metrics and identified areas for improvement. Implemented Agile methodologies to streamline product development processes."
+        },
+        {
+            "company": "GreenTech Innovations",
+            "role": "Senior Product Owner",
+            "start_date": "2018-06-01",
+            "end_date": "2020-12-31",
+            "description": "Managed the product backlog and prioritized features for a portfolio of renewable energy products. Worked closely with stakeholders to gather requirements and translate them into user stories. Led sprint planning meetings and ensured that the development team had a clear understanding of the product vision. Conducted user acceptance testing and gathered feedback to improve product quality."
+        },
+        {
+            "company": "Polaris Consulting Group",
+            "role": "Management Consultant",
+            "start_date": "2015-09-01",
+            "end_date": "2018-05-31",
+            "description": "Provided consulting services to clients in the manufacturing and energy industries. Conducted market analysis, developed business strategies, and implemented operational improvements. Led cross-functional teams and managed project budgets. Prepared and delivered presentations to senior management."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Industrial Engineering",
+            "year_of_graduation": 2015,
+            "description": "Graduated with honors. Focused on supply chain management and operations research. Completed a thesis on the optimization of logistics networks."
+        },
+        {
+            "institution": "INSEAD",
+            "degree": "MBA",
+            "year_of_graduation": 2017,
+            "description": "Concentration in strategy and marketing. Participated in several case competitions and consulting projects. Developed a strong understanding of global business environments."
+        }
+    ]
+}

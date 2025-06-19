@@ -1,0 +1,57 @@
+{
+    "first_name": "Nadia",
+    "last_name": "Petrova",
+    "birthdate": "1987-05-15",
+    "age": 36,
+    "email": "nadia.petrova@example.com",
+    "phone": "+48500600700",
+    "address": "ul. Marszałkowska 104, 00-089 Warszawa, Poland",
+    "skills": [
+        "Product Strategy",
+        "Agile Development",
+        "Market Analysis",
+        "User Research",
+        "SaaS",
+        "Jira",
+        "Confluence",
+        "SQL",
+        "Python"
+    ],
+    "experiences": [
+        {
+            "company": "Polskie Sieci Elektroenergetyczne",
+            "role": "Business Analyst",
+            "start_date": "2010-09-01",
+            "end_date": "2012-06-30",
+            "description": "Analyzed energy market trends and regulatory changes. Developed financial models for investment projects. Supported the strategic planning process."
+        },
+        {
+            "company": "InnoTech Solutions",
+            "role": "Product Owner",
+            "start_date": "2012-07-01",
+            "end_date": "2017-12-31",
+            "description": "Led the development of a new cloud-based platform for managing energy consumption data.  Managed the product backlog, defined user stories, and prioritized features.  Collaborated with developers, designers, and testers to ensure successful product delivery. Improved user adoption by 40%."
+        },
+        {
+            "company": "NovaGlobal Technologies",
+            "role": "Product Manager",
+            "start_date": "2018-01-01",
+            "end_date": "2023-10-31",
+            "description": "Defined and executed the product roadmap for a suite of B2B SaaS tools focused on data analytics and visualization. Conducted market research, gathered user feedback, and identified new product opportunities. Increased revenue by 25% year-over-year. Managed a team of product owners."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Electrical Engineering",
+            "year_of_graduation": 2010,
+            "description": "Specialized in power systems and automation.  Graduated with honors."
+        },
+        {
+            "institution": "INSEAD",
+            "degree": "MBA",
+            "year_of_graduation": 2018,
+            "description": "Completed a full-time MBA program with a focus on strategy and finance.  Participated in several case competitions."
+        }
+    ]
+}

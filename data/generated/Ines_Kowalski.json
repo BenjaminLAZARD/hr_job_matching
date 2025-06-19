@@ -1,0 +1,57 @@
+{
+    "first_name": "Ines",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-12",
+    "age": 35,
+    "email": "ines.kowalski@example.com",
+    "phone": "+48123456789",
+    "address": "Krakowska 12, 00-001 Warszawa, Poland",
+    "skills": [
+        "Product Management",
+        "Agile Methodologies",
+        "Market Analysis",
+        "User Research",
+        "Data Analysis",
+        "Roadmap Definition",
+        "Stakeholder Management",
+        "Jira",
+        "Confluence"
+    ],
+    "experiences": [
+        {
+            "company": "InfinitTech Solutions",
+            "role": "Junior Product Manager",
+            "start_date": "2012-07-01",
+            "end_date": "2015-12-31",
+            "description": "Assisted senior product managers in defining and executing product strategies. Conducted market research and competitive analysis. Gathered and analyzed user feedback to identify areas for improvement. Managed small product features from conception to launch. Contributed to the development of product documentation and training materials."
+        },
+        {
+            "company": "Nova Dynamics",
+            "role": "Product Manager",
+            "start_date": "2016-01-01",
+            "end_date": "2019-12-31",
+            "description": "Led the development and launch of a new mobile application, resulting in a 30% increase in user engagement. Defined product requirements and user stories based on user research and market trends. Collaborated with engineering, design, and marketing teams to ensure successful product releases. Managed the product backlog and prioritized features based on business value and user needs. Tracked and analyzed product performance metrics to identify areas for optimization."
+        },
+        {
+            "company": "Stellaris Group",
+            "role": "Senior Product Manager",
+            "start_date": "2020-01-01",
+            "end_date": "2023-10-31",
+            "description": "Responsible for the product roadmap of the company's flagship software. Prioritized features based on user feedback, market analysis, and business goals. Collaborated with cross-functional teams to ensure successful product launches. Managed a team of product managers and mentored junior team members. Drove revenue growth by identifying new market opportunities and developing innovative product solutions. Improved user engagement by implementing user-centered design principles and optimizing the user experience."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2012,
+            "description": "Specialized in software engineering and data mining. Conducted research on machine learning algorithms for natural language processing. Completed a thesis on the application of deep learning to image recognition."
+        },
+        {
+            "institution": "University of Economics in Krakow",
+            "degree": "MBA",
+            "year_of_graduation": 2018,
+            "description": "Focused on business strategy, finance, and marketing. Developed skills in leadership, communication, and problem-solving. Completed a capstone project on the development of a new business model for a fintech startup."
+        }
+    ]
+}

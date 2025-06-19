@@ -1,0 +1,58 @@
+{
+    "first_name": "Sofia",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "sofia.kowalski@example.com",
+    "phone": "+48123456789",
+    "address": "Krakowska 25, Warsaw, Poland",
+    "skills": [
+        "Product Management",
+        "Agile",
+        "Scrum",
+        "User Research",
+        "Competitive Analysis",
+        "Data Analytics",
+        "Stakeholder Management",
+        "Roadmap Definition",
+        "JIRA",
+        "Confluence"
+    ],
+    "experiences": [
+        {
+            "company": "Stellar Insights",
+            "role": "Product Manager",
+            "start_date": "2021-01-01",
+            "end_date": "2023-12-31",
+            "description": "Led the product development of a new AI-powered marketing analytics platform. Defined product vision, strategy, and roadmap. Conducted user research, competitive analysis, and market analysis to identify opportunities. Prioritized features based on user needs, market trends, and business goals. Worked closely with engineering, design, and marketing teams to deliver high-quality products on time and within budget. Increased user engagement by 40% in the first year."
+        },
+        {
+            "company": "QuantumLeap Analytics",
+            "role": "Senior Product Analyst",
+            "start_date": "2018-06-01",
+            "end_date": "2020-12-31",
+            "description": "Managed the product backlog for the core data analytics platform. Analyzed user data to identify areas for improvement and new product opportunities. Collaborated with engineering and design teams to implement new features and enhancements. Developed and executed A/B tests to optimize product performance. Presented product updates to stakeholders and senior management."
+        },
+        {
+            "company": "DataSphere Solutions (Warsaw)",
+            "role": "Business Analyst",
+            "start_date": "2015-02-01",
+            "end_date": "2018-05-31",
+            "description": "Gathered and analyzed business requirements for a variety of data-driven projects. Created user stories, use cases, and process flows. Worked closely with developers and testers to ensure that solutions met business needs. Provided training and support to end users."
+        }
+    ],
+    "education": [
+        {
+            "institution": "INSEAD",
+            "degree": "MBA",
+            "year_of_graduation": 2021,
+            "description": "Concentration in Strategy and Innovation. Relevant coursework included: Product Management, Marketing Strategy, and Entrepreneurship."
+        },
+        {
+            "institution": "University of Warsaw",
+            "degree": "M.Sc. in Economics",
+            "year_of_graduation": 2015,
+            "description": "Specialized in Econometrics. Thesis: \"The Impact of Big Data on Economic Forecasting\"."
+        }
+    ]
+}

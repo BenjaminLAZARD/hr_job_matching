@@ -1,0 +1,58 @@
+{
+    "first_name": "Mateusz",
+    "last_name": "Nowak",
+    "birthdate": "1990-05-15",
+    "age": 33,
+    "email": "mateusz.nowak@email.com",
+    "phone": "+48123456789",
+    "address": "ul. Krakowska 24, 00-001 Warszawa, Poland",
+    "skills": [
+        "Java",
+        "Python",
+        "Spring Boot",
+        "Microservices",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "SQL",
+        "Git",
+        "CI/CD"
+    ],
+    "experiences": [
+        {
+            "company": "TechForward Solutions",
+            "role": "Senior Software Engineer",
+            "start_date": "2022-01-01",
+            "end_date": null,
+            "description": "Currently leading a team of engineers in developing and maintaining microservices for a large e-commerce platform. Responsible for designing scalable and resilient architectures, implementing best practices for code quality and security, and mentoring junior engineers.  Actively involved in defining the technical roadmap and evaluating new technologies."
+        },
+        {
+            "company": "Innovate Dynamics",
+            "role": "Software Engineer",
+            "start_date": "2018-06-01",
+            "end_date": "2021-12-31",
+            "description": "Developed and maintained backend systems for a fintech startup, focusing on transaction processing and fraud detection.  Built RESTful APIs using Java and Spring Boot, integrated with various third-party services, and wrote unit and integration tests.  Contributed to improving the performance and reliability of the platform."
+        },
+        {
+            "company": "Global Data Networks",
+            "role": "Junior Software Developer",
+            "start_date": "2016-09-01",
+            "end_date": "2018-05-31",
+            "description": "Worked on a team developing network management tools using Python and SQL.  Implemented new features, fixed bugs, and wrote documentation.  Gained experience in working with large datasets and network protocols."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Warsaw University of Technology",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2016,
+            "description": "Specialized in distributed systems and algorithms.  Completed a master's thesis on the performance optimization of cloud-based applications."
+        },
+        {
+            "institution": "University of Warsaw",
+            "degree": "B.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Focused on software engineering and data structures.  Participated in several programming competitions and hackathons."
+        }
+    ]
+}

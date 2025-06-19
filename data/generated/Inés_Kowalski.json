@@ -1,0 +1,58 @@
+{
+    "first_name": "Inés",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "ines.kowalski@example.com",
+    "phone": "+48123456789",
+    "address": "ul. Zielona 10, 00-001 Warszawa, Poland",
+    "skills": [
+        "Product Management",
+        "Agile Methodologies",
+        "Market Research",
+        "Product Roadmap",
+        "Stakeholder Management",
+        "Data Analysis",
+        "Competitive Analysis",
+        "User Experience (UX)",
+        "Sustainable Packaging",
+        "Go-to-Market Strategy"
+    ],
+    "experiences": [
+        {
+            "company": "Novatek S.A.",
+            "role": "Marketing Intern",
+            "start_date": "2010-06-01",
+            "end_date": "2010-08-31",
+            "description": "Supported the marketing team with market research and data analysis. Assisted in the development of marketing campaigns for new product launches in the energy sector. Gained experience in market segmentation and competitive analysis."
+        },
+        {
+            "company": "EcoSolutions Ltd.",
+            "role": "Associate Product Manager",
+            "start_date": "2012-09-01",
+            "end_date": "2016-12-31",
+            "description": "Managed a portfolio of eco-friendly cleaning products. Conducted market research to identify customer needs and market trends. Developed product specifications and worked with engineering to ensure successful product development. Led cross-functional teams to launch new products and increase market share. Improved product line profitability by 15% within 2 years."
+        },
+        {
+            "company": "Verdant Innovations Group",
+            "role": "Product Manager",
+            "start_date": "2017-01-01",
+            "end_date": "2023-10-31",
+            "description": "Defined and managed the product roadmap for a new line of sustainable packaging solutions. Collaborated with engineering, design, and marketing to launch innovative products that meet market demand and environmental goals. Translated customer needs into tangible product features. Managed a team of 3 associate product managers. Successfully launched 5 new sustainable packaging products, resulting in a 20% increase in revenue for the packaging division."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Warsaw",
+            "degree": "M.Sc. in Economics",
+            "year_of_graduation": 2012,
+            "description": "Majored in International Economics. Completed a thesis on the impact of globalization on the Polish economy. Actively participated in student organizations focused on sustainability and social responsibility."
+        },
+        {
+            "institution": "INSEAD",
+            "degree": "MBA",
+            "year_of_graduation": 2017,
+            "description": "Focused on general management and marketing. Participated in various case studies and simulations to develop leadership and decision-making skills. Networked with industry professionals from around the world. Graduated with honors."
+        }
+    ]
+}

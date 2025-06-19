@@ -1,0 +1,56 @@
+{
+    "first_name": "Soraya",
+    "last_name": "Kowalski",
+    "birthdate": "1988-05-15",
+    "age": 35,
+    "email": "soraya.kowalski@email.com",
+    "phone": "+48123456789",
+    "address": "ul. Marszałkowska 1, 00-001 Warszawa, Poland",
+    "skills": [
+        "Python",
+        "Machine Learning",
+        "TensorFlow",
+        "Scikit-learn",
+        "Data Analysis",
+        "SQL",
+        "Data Visualization",
+        "Cloud Computing (AWS, Azure)"
+    ],
+    "experiences": [
+        {
+            "company": "InnoVision Analytics",
+            "role": "Data Scientist",
+            "start_date": "2015-06-01",
+            "end_date": "2017-12-31",
+            "description": "Developed and implemented machine learning models for various applications, including customer churn prediction and fraud detection. Conducted statistical analysis and data visualization to identify key insights and trends. Collaborated with cross-functional teams to integrate models into existing systems. Technologies used: Python, Scikit-learn, Pandas, Matplotlib, SQL."
+        },
+        {
+            "company": "GlobalTech Dynamics",
+            "role": "Senior Data Scientist",
+            "start_date": "2018-01-02",
+            "end_date": "2021-05-31",
+            "description": "Led the development and deployment of advanced machine learning models for predictive maintenance and anomaly detection. Mentored junior data scientists and provided technical guidance. Researched and implemented new statistical techniques to improve model accuracy and efficiency. Utilized cloud computing platforms (AWS, Azure) for model training and deployment. Technologies used: Python, TensorFlow, Keras, PyTorch, AWS SageMaker, Azure Machine Learning."
+        },
+        {
+            "company": "Zenith Data Group",
+            "role": "Principal Data Scientist",
+            "start_date": "2021-06-01",
+            "end_date": null,
+            "description": "Currently leading a team of data scientists focused on building and maintaining machine learning models for fraud detection. Collaborating with engineering to deploy models into production systems. Responsible for researching and evaluating new statistical techniques to improve model performance and scalability.  Focusing on model explainability and fairness. Technologies used: Python, TensorFlow, Scikit-learn, AWS, Docker, Kubernetes."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Warsaw",
+            "degree": "M.Sc. in Computer Science",
+            "year_of_graduation": 2014,
+            "description": "Specialized in Machine Learning and Data Mining. Thesis focused on developing a novel algorithm for anomaly detection in time series data."
+        },
+        {
+            "institution": "École Polytechnique Fédérale de Lausanne",
+            "degree": "Ph.D. in Data Science",
+            "year_of_graduation": 2017,
+            "description": "Research focused on developing scalable machine learning algorithms for large-scale datasets. Published several papers in leading machine learning conferences."
+        }
+    ]
+}
